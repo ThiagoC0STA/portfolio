@@ -18,7 +18,7 @@ const Contact = () => {
           <AiFillLinkedin />
         </a>
 
-        <a href="" target="__blank">
+        <a href="mailto: rodclikedev@gmail.com" target="__blank">
           <HiOutlineMail />
         </a>
       </Cards>
