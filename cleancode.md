@@ -1,0 +1,1 @@
+Nâo esequece de limpar o código, tem varias linhas de css q se repetem, você pode usar um mesmo style para todas elas  
