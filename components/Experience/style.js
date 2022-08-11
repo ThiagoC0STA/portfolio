@@ -77,12 +77,12 @@ export const AbilitiesDiv = styled.div`
 
   :hover {
     svg {
-      color: #bd00ff;
+      color: #b400f3;
     }
 
     h3 {
       color: #fcfcfc;
-    } 
+    }
   }
 
   @media (max-width: 850px) {

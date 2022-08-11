@@ -26,7 +26,7 @@ const Works = () => {
     prevArrow: <SamplePrevArrow />,
     centerMode: true,
     centerPadding: "40px",
-    initialSlide: 1,
+    initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
@@ -44,12 +44,16 @@ const Works = () => {
       <h3>My Portfolio</h3>
       <HiddenDiv>
         <Slider {...settings}>
-          {items.map(({ titulo, img , url, alt }, index) => (
+          {items.map(({ titulo, img, url, alt }, index) => (
             <div key={index}>
               <Cards>
                 <h4>{titulo}</h4>
-                <div><Image src={img} alt={alt} /></div>
-                <a href={url} target="__blank" >View More</a>
+                <div>
+                  <Image src={img} alt={alt} />
+                </div>
+                <a href={url} target="__blank">
+                  View More
+                </a>
               </Cards>
             </div>
           ))}

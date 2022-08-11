@@ -18,7 +18,7 @@ export const Cards = styled.div`
   }
 
   svg:hover {
-    color: #bd00ff;
+    color: #b400f3;
   }
 
   @media (max-width: 600px) {

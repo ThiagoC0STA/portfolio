@@ -30,7 +30,7 @@ export const Cards = styled.section`
     background-color: transparent;
     cursor: pointer;
     border-radius: 6px;
-    border: 1px solid #bd00ff;
+    border: 1px solid #b400f3;
     padding: 3px 13px;
     font-size: 13px;
     color: #fcfcfc;
@@ -40,7 +40,7 @@ export const Cards = styled.section`
     transition: all ease 0.6s;
 
     :hover {
-      background-color: #bd00ff;
+      background-color: #b400f3;
       transition: all ease 0.6s;
       color: #141a20;
     }

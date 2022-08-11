@@ -7,11 +7,6 @@ export const ColumnDiv = styled.div`
   flex-direction: column;
   margin-top: 160px;
 
-  h2 {
-    color: #bd00ff;
-    font-size: 1.7em;
-  }
-
   h3 {
     color: #ccc;
     font-weight: 500;
