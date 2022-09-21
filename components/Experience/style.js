@@ -13,10 +13,12 @@ export const GeralDiv = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 22px;
+  gap: 28px 22px;
   width: 800px;
   height: 350px;
   margin-top: 20px;
+  margin-bottom: 160px;
+
 
   @media (max-width: 850px) {
     width: 500px;
@@ -88,7 +90,7 @@ export const AbilitiesDiv = styled.div`
   @media (max-width: 850px) {
     width: 100px;
     height: 100px;
-    gap: 7px;
+    gap: 3px;
 
     svg {
       font-size: 3.8em;

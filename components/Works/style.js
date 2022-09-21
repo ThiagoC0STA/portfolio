@@ -9,6 +9,7 @@ export const Cards = styled.section`
   overflow: hidden;
   margin-left: 37px;
 
+
   h4 {
     color: #fcfcfc;
     font-weight: 500;
@@ -49,6 +50,10 @@ export const Cards = styled.section`
   @media (max-width: 1540px) {
     width: 190px;
     height: 140px;
+
+    .MainTec {
+      font-size: 12px;
+    }
 
     h4 {
       font-size: 12px;

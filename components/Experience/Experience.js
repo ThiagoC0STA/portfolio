@@ -3,7 +3,9 @@ import { AbilitiesDiv, GeralDiv } from "./style";
 import { ColumnDiv } from "../style";
 import { DiHtml5, DiCss3, DiReact } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiNextdotjs, SiStyledcomponents, SiTailwindcss, SiGit } from "react-icons/si";
+import { SiNextdotjs, SiStyledcomponents, SiTailwindcss, SiGit, SiWoocommerce } from "react-icons/si";
+import { FaWordpress } from "react-icons/fa";
+
 
 const Experience = () => {
   return (
@@ -50,6 +52,16 @@ const Experience = () => {
         <AbilitiesDiv>
           <SiGit className="smallIcon" />
            <h3>Git</h3>
+        </AbilitiesDiv>
+
+        <AbilitiesDiv>
+          <FaWordpress className="smallIcon" />
+           <h3>Wordpress</h3>
+        </AbilitiesDiv>
+
+        <AbilitiesDiv>
+          <SiWoocommerce />
+           <h3>WooCommerce</h3>
         </AbilitiesDiv>
       </GeralDiv>
     </ColumnDiv>
