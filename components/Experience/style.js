@@ -27,6 +27,7 @@ export const GeralDiv = styled.div`
 
   @media (max-width: 600px) {
     width: 400px;
+    margin-bottom: 60px;
   }
 
   @media (max-width: 480px) {
