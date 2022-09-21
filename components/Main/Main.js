@@ -10,7 +10,7 @@ const Main = () => {
       <h1>Thiago Costa</h1>
       <p>Front-End developer</p>
       <div>
-        <a href="https://www.linkedin.com/in/thiago-rodrigues-da-costa-525242210/" target="_blank" id="cv-button">Download CV</a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6938252803970592768/" target="_blank" id="cv-button">Download CV</a>
         <a href="https://github.com/thiagoc0sta" target="__blank" id="github-button">My github</a>
       </div>
       <AvatarDiv>
