@@ -19,7 +19,8 @@ const Works = () => {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 700,
+    lazyLoad: true,
     slidesToShow: 2,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
@@ -44,7 +45,7 @@ const Works = () => {
       <h3>My Portfolio</h3>
       <HiddenDiv>
         <Slider {...settings}>
-          {items.map(({ titulo, img, url, alt, technology }, index) => (
+          {items.map(({ titulo, img, url, alt }, index) => (
             <div key={index}>
               <Cards>
                 <h4>{titulo}</h4>
