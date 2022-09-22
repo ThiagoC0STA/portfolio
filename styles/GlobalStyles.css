@@ -10,8 +10,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+html, body {
+  scroll-behavior: smooth !important;
 }
 
 h2 {
