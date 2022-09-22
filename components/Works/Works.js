@@ -20,7 +20,6 @@ const Works = () => {
     dots: false,
     infinite: true,
     speed: 700,
-    lazyLoad: true,
     slidesToShow: 2,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
