@@ -19,7 +19,7 @@ const Works = () => {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 700,
+    speed: 400,
     slidesToShow: 2,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
