@@ -3,7 +3,7 @@ import { AbilitiesDiv, GeralDiv } from "./style";
 import { ColumnDiv } from "../style";
 import { DiHtml5, DiCss3, DiReact } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiNextdotjs, SiStyledcomponents, SiTailwindcss, SiGit, SiWoocommerce } from "react-icons/si";
+import { SiNextdotjs, SiStyledcomponents, SiTailwindcss, SiGit, SiWoocommerce, SiTypescript } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
 
 

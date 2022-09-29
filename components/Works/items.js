@@ -1,10 +1,16 @@
-import { Admin, Rodcflix, soon, Dogs, Kfk } from "../../Assets/Works/index";
+import { Admin, Rodcflix, Dogs, Kfk, KfkFront } from "../../Assets/Works/index";
 
 export const items = [
   {
-    titulo: "Kfk Racing - Moto Peças",
+    titulo: "Kfk Racing (wordpress)",
     img: Kfk,
     url: "https://kfkracing.com.br/",
+    alt: "A ecommerce for motorcycle parts",
+  },
+  {
+    titulo: "Kfk Racing (Next.js)",
+    img: KfkFront,
+    url: "https://kfk.vercel.app/",
     alt: "A ecommerce for motorcycle parts",
   },
   {
