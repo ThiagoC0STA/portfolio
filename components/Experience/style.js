@@ -1,13 +1,5 @@
 import styled from "styled-components";
 
-export const ExperienceDiv = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 160px;
-`;
-
 export const GeralDiv = styled.div`
   display: flex;
   align-items: center;
@@ -18,7 +10,6 @@ export const GeralDiv = styled.div`
   height: 350px;
   margin-top: 20px;
   margin-bottom: 160px;
-
 
   @media (max-width: 850px) {
     width: 500px;
@@ -57,6 +48,10 @@ export const AbilitiesDiv = styled.div`
     transition: all ease 0.5s;
   }
 
+  .customSvg {
+    transition: all ease 0.5s;
+  }
+
   .smallIcon {
     font-size: 4em;
   }
@@ -80,11 +75,15 @@ export const AbilitiesDiv = styled.div`
 
   :hover {
     svg {
-      color: #b400f3;
+      color: #bb00ff;
     }
 
     h3 {
       color: #fcfcfc;
+    }
+
+    .customSvg {
+      stop-color: #bb00ff;
     }
   }
 

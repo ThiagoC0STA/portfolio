@@ -15,12 +15,14 @@ export const MainDiv = styled.main`
     font-size: 2.3em;
   }
 
-  h4 {
-    font-weight: normal;
+  p {
+    color: #cb3bff;
+    font-size: 1em;
   }
 
-  p {
-    color: #b400f3;
+  .hello {
+    font-weight: normal;
+    color: #ffffff;
     font-size: 1em;
   }
 
@@ -44,19 +46,19 @@ export const MainDiv = styled.main`
     #cv-button {
       background: transparent;
       color: #fcfcfc;
-      border: 1.33px solid #b400f3;
+      border: 1.33px solid #bb00ff;
       transition: all ease 0.6s;
     }
 
     #cv-button:hover {
-      background-color: #b400f3;
+      background-color: #bb00ff;
       transition: all ease 0.6s;
-      color: #141a20;
+      color: #000000;
     }
 
     #github-button {
-      background-color: #b400f3;
-      color: #141a20;
+      background-color: #bb00ff;
+      color: #000000;
       transition: all ease 0.6s;
       border: 1.33px solid transparent;
     }
@@ -64,13 +66,13 @@ export const MainDiv = styled.main`
     #github-button:hover {
       background: transparent;
       color: #fcfcfc;
-      border: 1.33px solid #b400f3;
+      border: 1.33px solid #bb00ff;
       transition: all ease 0.6s;
     }
   }
 
   @media (max-width: 850px) {
-    h4 {
+    .hello {
       font-size: 0.8em;
     }
 
@@ -95,14 +97,27 @@ export const AvatarDiv = styled.div`
   height: 250px;
   background: linear-gradient(206.57deg, #7100bd 16.67%, #ff2f2f 100%);
   border-radius: 40px 40px 5px 5px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 
   img {
+    object-fit: cover;
     margin-top: 20px !important;
-    min-width: 75% !important;
+  }
+
+  span {
+    position: relative !important;
+    width: 205px !important;
+    height: 250px !important;
   }
 
   @media (max-width: 850px) {
     width: 250px;
     height: 230px;
+
+    img {
+      margin-top: 10px !important;
+    }
   }
 `;

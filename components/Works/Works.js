@@ -44,14 +44,19 @@ const Works = () => {
       <h3>My Portfolio</h3>
       <HiddenDiv>
         <Slider {...settings}>
-          {items.map(({ titulo, img, url, alt }, index) => (
-            <div key={index}>
+          {items.map(({ titulo, img, url, alt, id }) => (
+            <div key={id}>
               <Cards>
                 <h4>{titulo}</h4>
                 <div>
-                  <Image src={img} alt={alt} />
+                  <Image
+                    src={img}
+                    alt={alt}
+                    layout="fill"
+                    quality="100"
+                  />
                 </div>
-                <a href={url} target="__blank">
+                <a tabIndex={-1} href={url} target="__blank">
                   View More
                 </a>
               </Cards>

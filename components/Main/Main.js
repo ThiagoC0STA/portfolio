@@ -6,7 +6,7 @@ import Image from "next/image";
 const Main = () => {
   return (
     <MainDiv>
-      <h4>Hello, i&apos;m</h4>
+      <p className="hello">Hello, i&apos;m</p>
       <h1>Thiago Costa</h1>
       <p>Front-End developer</p>
       <div>
@@ -14,7 +14,7 @@ const Main = () => {
         <a href="https://github.com/thiagoc0sta" target="__blank" id="github-button">My github</a>
       </div>
       <AvatarDiv>
-        <Image src={Avatar} alt="Avatar" />
+        <Image src={Avatar} alt="Avatar" layout="fill" quality={100} />
       </AvatarDiv>
     </MainDiv>
   );

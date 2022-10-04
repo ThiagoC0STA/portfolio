@@ -118,7 +118,7 @@ export const NavDiv = styled.nav`
   }
 
   a:hover {
-    color: #b400f3;
+    color: #bb00ff;
     transition: all ease 0.6s;
   }
 `;

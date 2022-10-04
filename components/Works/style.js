@@ -9,7 +9,6 @@ export const Cards = styled.section`
   overflow: hidden;
   margin-left: 37px;
 
-
   h4 {
     color: #fcfcfc;
     font-weight: 500;
@@ -17,21 +16,22 @@ export const Cards = styled.section`
     margin-bottom: 20px;
   }
 
-  div {
+  img {
     object-fit: cover;
+  }
 
-    img {
-      max-width: 250px;
-      max-height: 130px;
-      border-radius: 8px;
-    }
+  span {
+    position: relative !important;
+    width: 258px !important;
+    height: 132px !important;
+    border-radius: 8px;
   }
 
   a {
     background-color: transparent;
     cursor: pointer;
     border-radius: 6px;
-    border: 1px solid #b400f3;
+    border: 1px solid #bb00ff;
     padding: 3px 13px;
     font-size: 13px;
     color: #fcfcfc;
@@ -41,7 +41,7 @@ export const Cards = styled.section`
     transition: all ease 0.6s;
 
     :hover {
-      background-color: #b400f3;
+      background-color: #bb00ff;
       transition: all ease 0.6s;
       color: #141a20;
     }

@@ -5,7 +5,6 @@ export const AboutDiv = styled.div`
   align-items: center;
   flex-direction: column;
   color: #fcfcfc;
-  margin-top: 100px;
   width: 100%;
 
   section {
@@ -48,7 +47,6 @@ export const AboutDiv = styled.div`
   }
 
   @media (max-width: 720px) {
-
     p {
       font-size: 0.68em;
     }
@@ -69,9 +67,14 @@ export const AvatarDiv = styled.div`
   background: linear-gradient(206.57deg, #7100bdd6 16.67%, #ff2f2fd6 100%);
 
   img {
-    top: -40px !important;
-    min-height: 90% !important;
-    min-width: 90% !important;
+    top: -20px !important;
+    object-fit: cover;
+  }
+
+  span {
+    position: relative !important;
+    width: 203px !important;
+    height: 250px !important;
   }
 
   @media (max-width: 850px) {
@@ -107,7 +110,7 @@ export const TextsDiv = styled.div`
     width: 320px;
 
     p:nth-child(1) {
-    line-height: 18px;
+      line-height: 18px;
     }
   }
 `;
@@ -128,21 +131,22 @@ export const Work = styled.article`
     font-size: 17px;
   }
 
-  p {
+  p:nth-child(3) {
     font-size: 0.65em;
     display: flex;
     justify-content: center;
   }
 
-  h5 {
+  p:nth-child(2) {
     font-weight: 500;
+    color: #fff;
   }
 
   @media (max-width: 850px) {
     width: 100px;
     height: 70px;
 
-    p {
+    p:nth-child(3) {
       font-size: 0.55em;
     }
 
@@ -150,7 +154,7 @@ export const Work = styled.article`
       font-size: 15px;
     }
 
-    h5 {
+    p:nth-child(2) {
       font-size: 11px;
     }
   }
