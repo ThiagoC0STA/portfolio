@@ -1,4 +1,10 @@
-import { Admin, Rodcflix, Dogs, Kfk, KfkFront } from "../../Assets/Works/index";
+import {
+  Admin,
+  Rodcflix,
+  Dogs,
+  Kfk,
+  KfkFront,
+} from "../../public/Assets/Works/index";
 
 export const items = [
   {

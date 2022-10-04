@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { AboutDiv, AvatarDiv, TextsDiv, Work } from "./style";
-import Avatar2 from "../../Assets/IMG/avatar2.png";
+import Avatar2 from "../../public/Assets/IMG/avatar2.png";
 import { FaBriefcase } from "react-icons/fa";
 import { ColumnDiv } from "../style";
 
@@ -14,7 +14,7 @@ const About = () => {
       </ColumnDiv>
       <div className="container">
         <AvatarDiv>
-          <Image src={Avatar2} alt="Avatar" label="fill" quality={100}/>
+          <Image src={Avatar2} alt="Avatar" label="fill" quality={100} />
         </AvatarDiv>
         <TextsDiv>
           <p>

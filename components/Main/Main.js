@@ -1,6 +1,6 @@
 import React from "react";
 import { MainDiv, AvatarDiv } from "./style";
-import Avatar from "../../Assets/IMG/avatar.png";
+import Avatar from "../../public/Assets/IMG/avatar.png";
 import Image from "next/image";
 
 const Main = () => {

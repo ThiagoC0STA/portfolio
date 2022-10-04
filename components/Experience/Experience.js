@@ -1,7 +1,6 @@
 import React from "react";
 import { AbilitiesDiv, GeralDiv } from "./style";
 import { ColumnDiv } from "../style";
-import { DiHtml5, DiCss3, DiReact } from "react-icons/di";
 import { items } from "./items";
 
 const Experience = () => {

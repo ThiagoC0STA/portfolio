@@ -8,7 +8,7 @@ import {
   SiWoocommerce,
 } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
-import Typescript from "../../Assets/Icons/Typescript.js";
+import Typescript from "../../public/Assets/Icons/Typescript.js";
 
 export const items = [
   {
