@@ -86,7 +86,7 @@ export const Cards = styled.section`
 
     a {
       font-size: 8px;
-      bottom: -3px;
+      bottom: -2px;
     }
   }
 
