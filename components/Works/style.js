@@ -18,13 +18,13 @@ export const Cards = styled.section`
 
   img {
     object-fit: cover;
+    border-radius: 8px;
   }
 
   span {
     position: relative !important;
-    width: 258px !important;
-    height: 132px !important;
-    border-radius: 8px;
+    width: 257px !important;
+    height: 131px !important;
   }
 
   a {
@@ -59,13 +59,13 @@ export const Cards = styled.section`
       font-size: 12px;
     }
 
-    div {
-      width: 150px;
-      height: 60px;
+    span {
+      width: 150px !important;
+      height: 76px !important;
     }
 
     a {
-      bottom: -30px;
+      bottom: -20px;
     }
   }
 
@@ -79,14 +79,14 @@ export const Cards = styled.section`
       margin-top: -15px;
     }
 
-    div {
-      width: 120px;
-      height: 50px;
+    span {
+      width: 120px !important;
+      height: 61px !important;
     }
 
     a {
       font-size: 8px;
-      bottom: -15px;
+      bottom: -3px;
     }
   }
 

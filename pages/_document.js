@@ -31,15 +31,14 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Thiago Costa</title>
           <meta name="description" content="Welcome to my portfolio website" />
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="stylesheet"
             type="text/css"
-            charset="UTF-8"
+            charSet="UTF-8"
             href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-            onload="this.media='all'"
+            onLoad="this.media='all'"
           />
           <link
             rel="stylesheet"
