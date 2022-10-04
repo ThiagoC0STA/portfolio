@@ -7,7 +7,7 @@ export const Cards = styled.section`
   background-color: #16212b;
   border-radius: 15px;
   overflow: hidden;
-  margin-left: 37px;
+  margin-left: 25px;
 
   h4 {
     color: #fcfcfc;
@@ -72,7 +72,6 @@ export const Cards = styled.section`
   @media (max-width: 720px) {
     width: 140px;
     height: 80px;
-    margin-left: 15px;
 
     h4 {
       font-size: 8px;
@@ -90,15 +89,77 @@ export const Cards = styled.section`
     }
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 400px) {
     margin-left: 15px;
   }
+
+  @media (max-width: 361px) {
+    margin-left: 5px;
+  }
+`;
+
+export const Container = styled.div`
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 1130px) {
+    width: 65vw;
+  }
+
+  @media (max-width: 1030px) {
+    width: 70vw;
+  }
+
+  @media (max-width: 970px) {
+    width: 80vw;
+  }
+
+  @media (max-width: 830px) {
+    width: 50vw;
+  }
+
+  @media (max-width: 780px) {
+    width: 55vw;
+  }
+
+  @media (max-width: 750px) {
+    width: 60vw;
+  }
+
+  @media (max-width: 720px) {
+    width: 50vw;
+  }
+
+  @media (max-width: 700px) {
+    width: 55vw;
+  }
+
+  @media (max-width: 650px) {
+    width: 60vw;
+  }
+
+  @media (max-width: 580px) {
+    width: 65vw;
+  }
+
+  @media (max-width: 530px) {
+    width: 70vw;
+  }
+
+  @media (max-width: 530px) {
+    width: 70vw;
+  }
+
+  @media (max-width: 490px) {
+    width: 90vw;
+  }
+
 `;
 
 export const HiddenDiv = styled.div`
   overflow-x: hidden;
-  width: 55vw;
-  margin-left: -10px;
 
   .slick-track {
     display: flex;
@@ -141,21 +202,5 @@ export const HiddenDiv = styled.div`
         font-size: 25px;
       }
     }
-  }
-
-  @media (max-width: 580px) {
-    width: 65vw;
-  }
-
-  @media (max-width: 480px) {
-    width: 70vw;
-  }
-
-  @media (max-width: 450px) {
-    width: 86vw;
-  }
-
-  @media (max-width: 350px) {
-    width: 95vw;
   }
 `;
