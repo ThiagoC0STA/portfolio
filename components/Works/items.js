@@ -3,7 +3,7 @@ import {
   Rodcflix,
   Dogs,
   Kfk,
-  KfkFront,
+  RodcNatural,
 } from "../../public/Assets/Works/index";
 
 export const items = [
@@ -15,10 +15,10 @@ export const items = [
     id: 1,
   },
   {
-    titulo: "Kfk Racing (Next.js)",
-    img: KfkFront,
-    url: "https://kfk.vercel.app/",
-    alt: "A ecommerce for motorcycle parts",
+    titulo: "Rodc Natural",
+    img: RodcNatural,
+    url: "https://rodc-natural.vercel.app/",
+    alt: "RN the best natural products website",
     id: 2,
   },
   {
