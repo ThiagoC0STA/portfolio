@@ -23,10 +23,11 @@ export const HeaderDiv = styled.header`
     cursor: pointer;
   }
 
-  h1 {
+  .logo {
     font-size: 1.8em;
     font-weight: 500;
     margin-left: 15%;
+    color: #fff;
   }
 
   svg {
@@ -103,6 +104,7 @@ export const HeaderDiv = styled.header`
 
 export const NavDiv = styled.nav`
   margin-right: 10%;
+  scroll-behavior: smooth;
 
   ul {
     display: flex;

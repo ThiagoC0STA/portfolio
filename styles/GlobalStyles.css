@@ -14,8 +14,7 @@ a {
   text-decoration: none;
 }
 
-html,
-body {
+html {
   scroll-behavior: smooth;
 }
 

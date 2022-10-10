@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <HeaderDiv>
-      <h1>Rodc Dev</h1>
+      <a className="logo" href="#main">Rodc Dev</a>
       <NavDiv>
         <ul className={ active ? "active" : "inative" } >
           <li><a href="#about">About</a></li>

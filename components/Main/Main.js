@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Main = () => {
   return (
-    <MainDiv>
+    <MainDiv id="main">
       <p className="hello">Hello, i&apos;m</p>
       <h1>Thiago Costa</h1>
       <p>Front-End developer</p>
