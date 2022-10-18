@@ -25,6 +25,8 @@ const Works = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     centerPadding: "57px",
     initialSlide: 1,
     responsive: [
