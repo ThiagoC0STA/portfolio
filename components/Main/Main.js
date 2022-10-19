@@ -30,7 +30,7 @@ const Main = () => {
           src={Avatar}
           alt="Avatar"
           layout="fill"
-          property={true}
+          priority={true}
           quality={100}
         />
       </AvatarDiv>
