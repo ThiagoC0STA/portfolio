@@ -7,13 +7,10 @@ export const GeralDiv = styled.div`
   flex-wrap: wrap;
   gap: 28px 22px;
   width: 800px;
-  height: 350px;
   margin-top: 20px;
-  margin-bottom: 160px;
 
   @media (max-width: 850px) {
     width: 500px;
-    height: 220px;
   }
 
   @media (max-width: 600px) {
@@ -23,7 +20,6 @@ export const GeralDiv = styled.div`
 
   @media (max-width: 480px) {
     width: 300px;
-    height: 330px;
   }
 `;
 

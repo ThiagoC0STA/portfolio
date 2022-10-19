@@ -8,6 +8,8 @@ import {
   SiWoocommerce,
 } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
+import { CgFigma } from "react-icons/cg";
+import { BsGithub } from "react-icons/bs";
 import Typescript from "../../public/Assets/Icons/Typescript.js";
 
 export const items = [
@@ -28,7 +30,7 @@ export const items = [
   },
   {
     icon: <Typescript />,
-    name: "JavaScript",
+    name: "TypesCript",
     id: 3,
   },
   {
@@ -57,13 +59,23 @@ export const items = [
     id: 8,
   },
   {
+    icon: <BsGithub className="smallIcon" />,
+    name: "GitHub",
+    id: 9,
+  },
+  {
     icon: <FaWordpress className="smallIcon" />,
     name: "Wordpress",
-    id: 9,
+    id: 10,
   },
   {
     icon: <SiWoocommerce />,
     name: "WooCommerce",
-    id: 10,
+    id: 11,
+  },
+  {
+    icon: <CgFigma className="smallIcon" />,
+    name: "Figma",
+    id: 12,
   },
 ];
