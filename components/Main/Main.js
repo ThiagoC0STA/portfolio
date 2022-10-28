@@ -11,7 +11,7 @@ const Main = () => {
       <p>Front-End developer</p>
       <div>
         <a
-          href="https://www.linkedin.com/feed/update/urn:li:activity:6938252803970592768/"
+          href="https://www.linkedin.com/in/thiago-rodrigues-da-costa-525242210/"
           target="_blank"
           id="cv-button"
         >
