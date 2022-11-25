@@ -4,6 +4,7 @@ import Avatar from "../../public/Assets/IMG/avatar.png";
 import Image from "next/image";
 
 const Main = () => {
+
   return (
     <MainDiv id="main">
       <p className="hello">Hello, i&apos;m</p>
