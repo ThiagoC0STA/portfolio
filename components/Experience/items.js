@@ -7,7 +7,8 @@ import {
   SiGit,
   SiWoocommerce,
 } from "react-icons/si";
-import { FaWordpress } from "react-icons/fa";
+import { FaWordpress, FaNode } from "react-icons/fa";
+import { SiMongodb, SiExpress } from "react-icons/si";
 import { CgFigma } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import Typescript from "../../public/Assets/Icons/Typescript.js";
@@ -77,5 +78,20 @@ export const items = [
     icon: <CgFigma className="smallIcon" />,
     name: "Figma",
     id: 12,
+  },
+  {
+    icon: <SiMongodb className="smallIcon" />,
+    name: "MongoDB",
+    id: 13,
+  },
+  {
+    icon: <SiExpress className="smallIcon" />,
+    name: "Express.js",
+    id: 14,
+  },
+  {
+    icon: <FaNode className="smallIcon" />,
+    name: "Node.js",
+    id: 14,
   },
 ];
