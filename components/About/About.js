@@ -27,13 +27,13 @@ const About = () => {
             <Work>
               <FaBriefcase />
               <p>Freelancer</p>
-              <p>+1 year</p>
+              <p>+2 years</p>
             </Work>
 
             <Work>
               <FaBriefcase />
-              <p>Experience</p>
-              <p>On the way</p>
+              <p>La costa</p>
+              <p>6 months</p>
             </Work>
 
             <Work>
