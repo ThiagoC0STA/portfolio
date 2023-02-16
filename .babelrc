@@ -1,7 +1,11 @@
 {
     "presets": [
-        "next",
-        "next/babel"
+        [
+            "next"
+        ],
+        [
+            "next/babel"
+        ]
     ],
     "plugins": [
         [
@@ -9,6 +13,9 @@
             {
                 "ssr": true
             }
+        ],
+        [
+            "@babel/plugin-proposal-do-expressions"
         ]
     ]
 }

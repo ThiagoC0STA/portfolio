@@ -48,6 +48,6 @@ export const items = [
     img: Dogs,
     url: "https://dogs-thiagoc0sta.vercel.app/",
     alt: "A social media for dogs",
-    id: 7,
+    id: 6,
   },
 ];
