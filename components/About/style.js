@@ -68,13 +68,8 @@ export const AvatarDiv = styled.div`
 
   img {
     top: -20px !important;
+    margin-left: 20px;
     object-fit: cover;
-  }
-
-  span {
-    position: relative !important;
-    width: 203px !important;
-    height: 250px !important;
   }
 
   @media (max-width: 850px) {

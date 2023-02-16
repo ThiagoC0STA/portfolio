@@ -21,12 +21,6 @@ export const Cards = styled.section`
     border-radius: 8px;
   }
 
-  span {
-    position: relative !important;
-    width: 257px !important;
-    height: 131px !important;
-  }
-
   a {
     background-color: transparent;
     cursor: pointer;
@@ -155,7 +149,6 @@ export const Container = styled.div`
   @media (max-width: 490px) {
     width: 90vw;
   }
-
 `;
 
 export const HiddenDiv = styled.div`

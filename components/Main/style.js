@@ -106,12 +106,6 @@ export const AvatarDiv = styled.div`
     margin-top: 20px !important;
   }
 
-  span {
-    position: relative !important;
-    width: 205px !important;
-    height: 250px !important;
-  }
-
   @media (max-width: 850px) {
     width: 250px;
     height: 230px;

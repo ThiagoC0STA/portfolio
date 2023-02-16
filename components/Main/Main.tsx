@@ -31,8 +31,9 @@ const Main: React.FC = () => {
         <Image
           src={Avatar}
           alt="Avatar"
-          layout="fill"
           priority={true}
+          width={205}
+          height={250}
           quality={100}
         />
       </AvatarDiv>

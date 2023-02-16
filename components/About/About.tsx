@@ -41,7 +41,13 @@ const About: React.FC = () => {
         </ColumnDiv>
         <div className="container">
           <AvatarDiv>
-            <Image src={Avatar2} alt="Avatar" quality={100} />
+            <Image
+              src={Avatar2}
+              alt="Avatar"
+              quality={100}
+              width={203}
+              height={250}
+            />
           </AvatarDiv>
           <TextsDiv>
             <p>

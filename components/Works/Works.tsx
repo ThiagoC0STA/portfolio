@@ -55,7 +55,7 @@ const Works: React.FC = () => {
       <Cards>
         <h4>{titulo}</h4>
         <div>
-          <Image src={img} alt={alt} layout="fill" quality={100} />
+          <Image src={img} alt={alt} width={257} height={131} quality={100} />
         </div>
         <a tabIndex={-1} href={url} target="_blank" rel="noopener noreferrer">
           View More
