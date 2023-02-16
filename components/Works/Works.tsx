@@ -3,7 +3,7 @@ import { ColumnDiv } from "../style";
 import { Cards, Container, HiddenDiv } from "./style";
 import Slider, { Settings } from "react-slick";
 import { items } from "./items";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import FadeIn from "../FadeIn/FadeIn";
 
 const Works: React.FC = () => {
