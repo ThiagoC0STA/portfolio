@@ -1,10 +1,9 @@
 import React from "react";
+import Image from "next/image";
 import { MainDiv, AvatarDiv } from "./style";
 import Avatar from "../../public/Assets/IMG/avatar.png";
-import Image from "next/image";
 
-const Main = () => {
-
+const Main: React.FC = () => {
   return (
     <MainDiv id="main">
       <p className="hello">Hello, i&apos;m</p>
@@ -14,13 +13,15 @@ const Main = () => {
         <a
           href="https://www.linkedin.com/in/thiago-rodrigues-da-costa-525242210/"
           target="_blank"
+          rel="noopener noreferrer"
           id="cv-button"
         >
           Download CV
         </a>
         <a
           href="https://github.com/thiagoc0sta"
-          target="__blank"
+          target="_blank"
+          rel="noopener noreferrer"
           id="github-button"
         >
           My github
