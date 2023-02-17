@@ -53,7 +53,7 @@ export const Cards = styled.section`
       font-size: 12px;
     }
 
-    span {
+    img {
       width: 150px !important;
       height: 76px !important;
     }
@@ -72,7 +72,7 @@ export const Cards = styled.section`
       margin-top: -15px;
     }
 
-    span {
+    img {
       width: 120px !important;
       height: 61px !important;
     }
