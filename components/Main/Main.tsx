@@ -8,15 +8,15 @@ const Main: React.FC = () => {
     <MainDiv id="main">
       <p className="hello">Hello, i&apos;m</p>
       <h1>Thiago Costa</h1>
-      <p>Front-End developer</p>
+      <p>Front-End / Full stack developer junior</p>
       <div>
         <a
-          href="https://www.linkedin.com/in/thiago-rodrigues-da-costa-525242210/"
+          href="https://www.linkedin.com/in/rodcdev/"
           target="_blank"
           rel="noopener noreferrer"
           id="cv-button"
         >
-          Download CV
+          My Linkedin
         </a>
         <a
           href="https://github.com/thiagoc0sta"

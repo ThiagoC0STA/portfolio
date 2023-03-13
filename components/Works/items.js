@@ -5,6 +5,7 @@ import {
   RodcNatural,
   CashBuild,
   Lacosta,
+  YourPlaces,
 } from "../../public/Assets/Works/index";
 
 export const items = [
@@ -16,24 +17,24 @@ export const items = [
     id: 1,
   },
   {
+    titulo: "Your Places - Social Media",
+    img: YourPlaces,
+    url: "https://places-social-media.vercel.app/",
+    alt: "A social media website",
+    id: 2,
+  },
+  {
     titulo: "La costa - Insurance Broker",
     img: Lacosta,
     url: "https://lacosta-corretora.vercel.app/",
     alt: "A insurance broker website",
-    id: 2,
+    id: 3,
   },
   {
     titulo: "Kfk Racing - Ecommerce",
     img: Kfk,
     url: "https://kfkracing.com.br/",
     alt: "A ecommerce for motorcycle parts",
-    id: 3,
-  },
-  {
-    titulo: "Rodc Natural - Ecommerce",
-    img: RodcNatural,
-    url: "https://rodc-natural.vercel.app/",
-    alt: "RN the best natural products website",
     id: 4,
   },
   {

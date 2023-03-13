@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/thiago-rodrigues-da-costa-525242210/"
+            href="https://www.linkedin.com/in/rodcdev/"
             target="__blank"
             rel="noopener noreferrer"
             aria-label="Linked-in"
