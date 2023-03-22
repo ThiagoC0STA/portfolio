@@ -9,7 +9,7 @@ export const Cards = styled.section`
   overflow: hidden;
   margin-left: 25px;
 
-  h4 {
+  p {
     color: #fcfcfc;
     font-weight: 500;
     font-size: 15px;
@@ -49,7 +49,7 @@ export const Cards = styled.section`
       font-size: 12px;
     }
 
-    h4 {
+    p {
       font-size: 12px;
     }
 
@@ -67,7 +67,7 @@ export const Cards = styled.section`
     width: 140px;
     height: 80px;
 
-    h4 {
+    p {
       font-size: 8px;
       margin-top: -15px;
     }

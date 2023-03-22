@@ -54,7 +54,7 @@ const Works: React.FC = () => {
   const renderWork = ({ titulo, img, url, alt, id }: any) => (
     <div key={id}>
       <Cards>
-        <h4>{titulo}</h4>
+        <p>{titulo}</p>
         <div>
           <Image src={img} alt={alt} width={257} height={131} quality={100} />
         </div>
