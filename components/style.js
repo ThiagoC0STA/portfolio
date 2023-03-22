@@ -6,13 +6,15 @@ export const ColumnDiv = styled.div`
   justify-content: center;
   flex-direction: column;
   margin-top: 160px;
+  scroll-margin-top: 10.7em !important;
 
   h2 {
-  color: #bb00ff;
-  font-size: 1.7em;
-}
+    color: #bb00ff;
+    font-size: 1.7em;
+  }
 
-  h3, .githublink {
+  h3,
+  .githublink {
     color: #ccc;
     font-weight: 500;
     margin: 1px 0 45px 0;

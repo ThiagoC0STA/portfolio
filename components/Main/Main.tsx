@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Main: React.FC = () => {
   return (
-    <MainDiv id="main">
+    <MainDiv>
       <p className="hello">Hello, i&apos;m</p>
       <h1>Thiago Costa</h1>
       <p>Front end developer junior/pleno</p>

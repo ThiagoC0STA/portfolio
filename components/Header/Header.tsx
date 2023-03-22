@@ -8,7 +8,7 @@ const Header: React.FC = () => {
 
   return (
     <HeaderDiv>
-      <a className="logo" href="#main">
+      <a className="logo" href="#">
         Rodc Dev
       </a>
       <NavDiv>
