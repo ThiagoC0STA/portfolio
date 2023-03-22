@@ -5,6 +5,7 @@ import Slider, { Settings } from "react-slick";
 import { items } from "./items";
 import Image from "next/image";
 import FadeIn from "../FadeIn/FadeIn";
+import Link from "next/link";
 
 const Works: React.FC = () => {
   const SampleNextArrow: React.FC<any> = (props) => {
@@ -57,9 +58,14 @@ const Works: React.FC = () => {
         <div>
           <Image src={img} alt={alt} width={257} height={131} quality={100} />
         </div>
-        <a tabIndex={-1} href={url} target="_blank" rel="noopener noreferrer">
+        <Link
+          tabIndex={-1}
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           View More
-        </a>
+        </Link>
       </Cards>
     </div>
   );
@@ -68,7 +74,15 @@ const Works: React.FC = () => {
     <FadeIn>
       <ColumnDiv id="portfolio">
         <h2>Recent Works</h2>
-        <h3>My Portfolio</h3>
+        <Link
+          href="https://github.com/ThiagoC0STA"
+          target="__blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          className="githublink"
+        >
+          More in my github
+        </Link>
         <Container>
           <HiddenDiv>
             <Slider {...settings}>{items.map(renderWork)}</Slider>

@@ -1,9 +1,10 @@
 import React from "react";
 import { ColumnDiv } from "../style";
 import { Cards } from "./style";
-import { AiOutlineInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import FadeIn from "../FadeIn/FadeIn";
+import Link from "next/link";
 
 const Contact: React.FC = () => {
   return (
@@ -12,32 +13,31 @@ const Contact: React.FC = () => {
         <h2>Contact Me</h2>
         <h3>get in touch</h3>
         <Cards>
-          <a
-            href="https://www.instagram.com/rodc_dev/?hl=pt"
+          <Link
+            href="https://github.com/ThiagoC0STA"
             target="__blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
-            <AiOutlineInstagram />
-          </a>
+            <AiFillGithub />
+          </Link>
 
-          <a
+          <Link
             href="https://www.linkedin.com/in/rodcdev/"
             target="__blank"
             rel="noopener noreferrer"
             aria-label="Linked-in"
           >
             <AiFillLinkedin />
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="mailto: rodclikedev@gmail.com"
-            target="__blank"
             rel="noopener noreferrer"
             aria-label="Email"
           >
             <HiOutlineMail />
-          </a>
+          </Link>
         </Cards>
       </ColumnDiv>
     </FadeIn>

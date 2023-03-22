@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HeaderDiv, NavDiv } from "./style";
 import { FaBars } from "react-icons/fa";
+import Link from "next/link";
 
 const Header: React.FC = () => {
   const [active, setActive] = useState(false);
@@ -13,19 +14,29 @@ const Header: React.FC = () => {
       <NavDiv>
         <ul className={active ? "active" : "inative"}>
           <li>
-            <a href="#about">About</a>
+            <Link href="#about" scroll={false}>
+              About
+            </Link>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <Link href="#experience" scroll={false}>
+              Experience
+            </Link>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <Link href="#services" scroll={false}>
+              Services
+            </Link>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <Link href="#portfolio" scroll={false}>
+              Portfolio
+            </Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link href="#contact" scroll={false}>
+              Contact
+            </Link>
           </li>
         </ul>
       </NavDiv>

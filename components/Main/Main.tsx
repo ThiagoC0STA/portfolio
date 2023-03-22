@@ -2,30 +2,31 @@ import React from "react";
 import Image from "next/image";
 import { MainDiv, AvatarDiv } from "./style";
 import Avatar from "../../public/Assets/IMG/avatar.png";
+import Link from "next/link";
 
 const Main: React.FC = () => {
   return (
     <MainDiv id="main">
       <p className="hello">Hello, i&apos;m</p>
       <h1>Thiago Costa</h1>
-      <p>Front-End / Full stack developer junior</p>
+      <p>Front end developer junior/pleno</p>
       <div>
-        <a
+        <Link
           href="https://www.linkedin.com/in/rodcdev/"
           target="_blank"
           rel="noopener noreferrer"
           id="cv-button"
         >
           My Linkedin
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://github.com/thiagoc0sta"
           target="_blank"
           rel="noopener noreferrer"
           id="github-button"
         >
           My github
-        </a>
+        </Link>
       </div>
       <AvatarDiv>
         <Image

@@ -12,7 +12,7 @@ export const ColumnDiv = styled.div`
   font-size: 1.7em;
 }
 
-  h3 {
+  h3, .githublink {
     color: #ccc;
     font-weight: 500;
     margin: 1px 0 45px 0;

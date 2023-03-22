@@ -3,6 +3,7 @@ import { Cards } from "./style";
 import { ColumnDiv } from "../style";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import FadeIn from "../FadeIn/FadeIn";
+import Link from "next/link";
 
 const Offer: React.FC = () => {
   return (
@@ -20,7 +21,9 @@ const Offer: React.FC = () => {
               You need to create a website professional or simple? contact me
               and we will discuss your needs and desires
             </p>
-            <a href="#contact">Contact Me</a>
+            <Link href="#contact" scroll={false}>
+              Contact Me
+            </Link>
           </section>
 
           <section>
@@ -32,7 +35,9 @@ const Offer: React.FC = () => {
               You need a new design, something more modern? contact me and we
               will discuss your needs and desires
             </p>
-            <a href="#contact">Contact Me</a>
+            <Link href="#contact" scroll={false}>
+              Contact Me
+            </Link>
           </section>
         </Cards>
       </ColumnDiv>
