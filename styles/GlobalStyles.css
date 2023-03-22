@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.slick-prev:before {
+.slick-prev {
   font-display: swap !important;
 }
 
