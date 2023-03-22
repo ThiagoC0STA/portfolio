@@ -6,6 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.slick-prev:before {
+  font-display: swap !important;
+}
+
 li {
   list-style: none;
 }
