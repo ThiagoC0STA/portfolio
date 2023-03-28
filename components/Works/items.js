@@ -17,14 +17,14 @@ export const items = [
     id: 1,
   },
   {
-    titulo: "Your Places - Social Media",
+    titulo: "WanderPics - Social Media",
     img: YourPlaces,
-    url: "https://places-social-media.vercel.app/",
+    url: "https://wanderpics.vercel.app/",
     alt: "A social media website",
     id: 2,
   },
   {
-    titulo: "La costa - Insurance Broker",
+    titulo: "La costa ( in production )",
     img: Lacosta,
     url: "https://lacosta-corretora.vercel.app/",
     alt: "A insurance broker website",
