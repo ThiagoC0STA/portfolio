@@ -1,13 +1,11 @@
 import React from "react";
 import { ColumnDiv } from "../style";
-import { Cards, Container, HiddenDiv } from "./style";
+import { Container, HiddenDiv } from "./style";
 import Slider, { Settings } from "react-slick";
-import { AiFillGithub } from "react-icons/ai";
-import { HiOutlineExternalLink } from "react-icons/hi";
 import { items } from "./items";
-import Image from "next/image";
 import FadeIn from "../FadeIn/FadeIn";
 import Link from "next/link";
+import Card from "./Card";
 
 const Works: React.FC = () => {
   const SampleNextArrow: React.FC<any> = (props) => {
@@ -53,43 +51,6 @@ const Works: React.FC = () => {
     ],
   };
 
-  const renderWork = ({ titulo, img, url, alt, id, github }: any) => (
-    <div key={id}>
-      <Cards>
-        <p>{titulo}</p>
-        <Image
-          src={img}
-          alt={alt}
-          width={257}
-          height={131}
-          quality={100}
-          className="project-image"
-        />
-
-        <div>
-          <Link
-            tabIndex={-1}
-            href={github}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillGithub />
-            Github
-          </Link>
-          <Link
-            tabIndex={-1}
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <HiOutlineExternalLink />
-            Project
-          </Link>
-        </div>
-      </Cards>
-    </div>
-  );
-
   return (
     <FadeIn>
       <ColumnDiv id="portfolio">
@@ -98,14 +59,18 @@ const Works: React.FC = () => {
           href="https://github.com/ThiagoC0STA"
           target="__blank"
           rel="noopener noreferrer"
-          aria-label="Instagram"
+          aria-label="Github"
           className="githublink"
         >
           More in my github
         </Link>
         <Container>
           <HiddenDiv>
-            <Slider {...settings}>{items.map(renderWork)}</Slider>
+            <Slider {...settings}>
+              {items.map((props) => (
+                <Card props={props} key={props.id} />
+              ))}
+            </Slider>
           </HiddenDiv>
         </Container>
       </ColumnDiv>

@@ -9,20 +9,34 @@ export const Cards = styled.section`
   overflow: hidden;
   margin-left: 25px;
 
-  p {
+  h4 {
     color: #fcfcfc;
     font-weight: 500;
     font-size: 15px;
     margin-bottom: 20px;
   }
 
-  div {
+  .techs {
+    background-color: #141c20;
+    position: absolute;
+    padding: 30px;
+    margin: -30px;
+    width: 300px;
+    height: 210px;
+    border-radius: 15px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .links {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 15px;
+    justify-content: center;
+    gap: 10px;
     position: relative;
-    bottom: -15px;
+    bottom: -20px;
   }
 
   svg {
@@ -37,24 +51,21 @@ export const Cards = styled.section`
     border-radius: 8px;
   }
 
-  a {
+  a,
+  button {
     background-color: transparent;
     cursor: pointer;
     border-radius: 6px;
     border: 1px solid #a003e4;
     padding: 5px 15px;
-    font-size: 13px;
-    color: #fcfcfc;
-    font-weight: 500;
     transition: all ease 0.6s;
     display: flex;
     align-items: center;
-    gap: 4px;
+    justify-content: center;
 
     :hover {
       background-color: #a003e4;
       transition: all ease 0.6s;
-      color: #141a20;
 
       svg {
         color: #141a20;
@@ -62,28 +73,38 @@ export const Cards = styled.section`
     }
   }
 
+  .active {
+    background-color: #a003e4;
+    transition: all ease 0.6s;
+
+    svg {
+      color: #141a20;
+    }
+  }
+
   @media (max-width: 1540px) {
     width: 190px;
     height: 150px;
+
+    .techs {
+      width: 190px;
+      height: 150px;
+    }
+
+    p {
+      font-size: 10px;
+    }
 
     .MainTec {
       font-size: 12px;
     }
 
-    p {
+    h4 {
       font-size: 12px;
-    }
-
-    a {
-      font-size: 10px;
     }
 
     svg {
       font-size: 0.9rem;
-    }
-
-    div {
-      gap: 10px;
     }
 
     .project-image {
@@ -94,11 +115,23 @@ export const Cards = styled.section`
 
   @media (max-width: 720px) {
     width: 140px;
-    height: 98px;
+    height: 110px;
     padding: 20px;
+
+    h4 {
+      font-size: 8px;
+    }
+
+    .techs {
+      width: 120px;
+      height: 90px;
+      margin: -20px;
+      padding: 20px;
+    }
 
     p {
       font-size: 8px;
+      margin-top: -7px;
     }
 
     .project-image {
@@ -107,13 +140,14 @@ export const Cards = styled.section`
       margin-top: -10px;
     }
 
-    div {
+    .links {
       bottom: -10px;
     }
 
-    a {
+    a,
+    button {
       font-size: 8px;
-      padding: 3px 9px;
+      padding: 4px 12px;
     }
   }
 
@@ -215,13 +249,13 @@ export const HiddenDiv = styled.div`
   @media (max-width: 1540px) {
     margin-left: 0;
     .slick-arrow {
-      height: 71%;
+      height: 70%;
     }
   }
 
   @media (max-width: 720px) {
     .slick-arrow {
-      height: 57%;
+      height: 59%;
     }
 
     .slick-arrow {
