@@ -4,7 +4,7 @@ export const Cards = styled.section`
   width: 300px;
   height: 210px;
   padding: 30px;
-  background-color: #16212b;
+  background-color: #141c20;
   border-radius: 15px;
   overflow: hidden;
   margin-left: 25px;
@@ -193,11 +193,11 @@ export const HiddenDiv = styled.div`
   }
 
   .slick-arrow {
-    background-color: #141a20;
+    background-color: #121618;
     padding: 31px;
     cursor: pointer;
     z-index: 999;
-    height: 76%;
+    height: 77%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,7 +215,7 @@ export const HiddenDiv = styled.div`
   @media (max-width: 1540px) {
     margin-left: 0;
     .slick-arrow {
-      height: 70%;
+      height: 71%;
     }
   }
 

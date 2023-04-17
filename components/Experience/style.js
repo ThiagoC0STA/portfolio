@@ -30,7 +30,7 @@ export const AbilitiesDiv = styled.div`
   flex-direction: column;
   width: 150px;
   height: 150px;
-  background-color: #16212b;
+  background-color: #141c20;
   border-radius: 10px;
   border: 2px solid transparent;
   transition: all ease 0.4s;

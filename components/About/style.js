@@ -116,7 +116,7 @@ export const Work = styled.article`
   justify-content: center;
   flex-direction: column;
   gap: 6px;
-  background-color: #16212b;
+  background-color: #141c20;
   width: 120px;
   height: 90px;
   border-radius: 18px;

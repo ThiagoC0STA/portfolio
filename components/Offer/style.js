@@ -10,7 +10,7 @@ export const Cards = styled.div`
     width: 250px;
     height: 210px;
     padding: 30px;
-    background-color: #16212b;
+    background-color: #141c20;
     border-radius: 15px;
   }
 

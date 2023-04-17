@@ -11,7 +11,7 @@ export const Cards = styled.div`
     color: #a003e46e;
     font-size: 37px;
     padding: 25px;
-    background-color: #16212b;
+    background-color: #141c20;
     border-radius: 17px;
     cursor: pointer;
     transition: all 0.4s;
