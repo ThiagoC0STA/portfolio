@@ -134,7 +134,7 @@ export const Work = styled.article`
 
   p:nth-child(2) {
     font-weight: 500;
-    color: #fff;
+    color: #ccc;
   }
 
   @media (max-width: 850px) {
