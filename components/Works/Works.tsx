@@ -55,9 +55,7 @@ const Works: React.FC = () => {
     <div key={id}>
       <Cards>
         <p>{titulo}</p>
-        <div>
-          <Image src={img} alt={alt} width={257} height={131} quality={100} />
-        </div>
+        <Image src={img} alt={alt} width={257} height={131} quality={100} />
         <Link
           tabIndex={-1}
           href={url}
