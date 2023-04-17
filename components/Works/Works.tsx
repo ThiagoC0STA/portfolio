@@ -2,6 +2,8 @@ import React from "react";
 import { ColumnDiv } from "../style";
 import { Cards, Container, HiddenDiv } from "./style";
 import Slider, { Settings } from "react-slick";
+import { AiFillGithub } from "react-icons/ai";
+import { HiOutlineExternalLink } from "react-icons/hi";
 import { items } from "./items";
 import Image from "next/image";
 import FadeIn from "../FadeIn/FadeIn";
@@ -51,19 +53,39 @@ const Works: React.FC = () => {
     ],
   };
 
-  const renderWork = ({ titulo, img, url, alt, id }: any) => (
+  const renderWork = ({ titulo, img, url, alt, id, github }: any) => (
     <div key={id}>
       <Cards>
         <p>{titulo}</p>
-        <Image src={img} alt={alt} width={257} height={131} quality={100} />
-        <Link
-          tabIndex={-1}
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View More
-        </Link>
+        <Image
+          src={img}
+          alt={alt}
+          width={257}
+          height={131}
+          quality={100}
+          className="project-image"
+        />
+
+        <div>
+          <Link
+            tabIndex={-1}
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillGithub />
+            Github
+          </Link>
+          <Link
+            tabIndex={-1}
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <HiOutlineExternalLink />
+            Project
+          </Link>
+        </div>
       </Cards>
     </div>
   );

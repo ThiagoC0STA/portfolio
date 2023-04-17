@@ -22,7 +22,7 @@ export const Cards = styled.div`
     background-color: transparent;
     cursor: pointer;
     border-radius: 6px;
-    border: 1px solid #bb00ff;
+    border: 1px solid #a003e4;
     padding: 5px 22px;
     font-size: 15px;
     color: #fcfcfc;
@@ -34,7 +34,7 @@ export const Cards = styled.div`
   }
 
   a:hover {
-    background-color: #bb00ff;
+    background-color: #a003e4;
     transition: all ease 0.6s;
     color: #141a20;
   }
@@ -47,7 +47,7 @@ export const Cards = styled.div`
     margin-bottom: 20px;
 
     svg {
-      color: #da71ffa3;
+      color: #a003e4c3;
       font-size: 20px;
     }
 

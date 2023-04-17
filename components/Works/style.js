@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Cards = styled.section`
   width: 300px;
-  height: 200px;
+  height: 210px;
   padding: 30px;
   background-color: #16212b;
   border-radius: 15px;
@@ -16,7 +16,23 @@ export const Cards = styled.section`
     margin-bottom: 20px;
   }
 
-  img {
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    position: relative;
+    bottom: -15px;
+  }
+
+  svg {
+    font-size: 1.1rem;
+    color: #fcfcfcdb;
+    transition: color 0.5s;
+    cursor: pointer;
+  }
+
+  .project-image {
     object-fit: cover;
     border-radius: 8px;
   }
@@ -25,25 +41,30 @@ export const Cards = styled.section`
     background-color: transparent;
     cursor: pointer;
     border-radius: 6px;
-    border: 1px solid #bb00ff;
-    padding: 3px 13px;
+    border: 1px solid #a003e4;
+    padding: 5px 15px;
     font-size: 13px;
     color: #fcfcfc;
     font-weight: 500;
-    position: relative;
-    bottom: -15px;
     transition: all ease 0.6s;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 
     :hover {
-      background-color: #bb00ff;
+      background-color: #a003e4;
       transition: all ease 0.6s;
       color: #141a20;
+
+      svg {
+        color: #141a20;
+      }
     }
   }
 
   @media (max-width: 1540px) {
     width: 190px;
-    height: 140px;
+    height: 150px;
 
     .MainTec {
       font-size: 12px;
@@ -53,33 +74,46 @@ export const Cards = styled.section`
       font-size: 12px;
     }
 
-    img {
-      width: 150px !important;
-      height: 76px !important;
+    a {
+      font-size: 10px;
     }
 
-    a {
-      bottom: -20px;
+    svg {
+      font-size: 0.9rem;
+    }
+
+    div {
+      gap: 10px;
+    }
+
+    .project-image {
+      width: 170px !important;
+      height: 76px !important;
     }
   }
 
   @media (max-width: 720px) {
     width: 140px;
-    height: 80px;
+    height: 98px;
+    padding: 20px;
 
     p {
       font-size: 8px;
-      margin-top: -15px;
     }
 
-    img {
+    .project-image {
       width: 120px !important;
       height: 61px !important;
+      margin-top: -10px;
+    }
+
+    div {
+      bottom: -10px;
     }
 
     a {
       font-size: 8px;
-      bottom: -2px;
+      padding: 3px 9px;
     }
   }
 

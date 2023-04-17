@@ -115,12 +115,11 @@ export const NavDiv = styled.nav`
   a {
     font-size: 1em;
     font-weight: 500;
-    transition: all ease 0.6s;
+    transition: all 0.5s;
     color: #fcfcfc;
   }
 
   a:hover {
-    color: #bb00ff;
-    transition: all ease 0.6s;
+    color: #a003e4;
   }
 `;

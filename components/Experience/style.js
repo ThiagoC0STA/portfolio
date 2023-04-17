@@ -39,7 +39,7 @@ export const AbilitiesDiv = styled.div`
   svg {
     margin-top: 10px;
     font-size: 5em;
-    color: #bd00ff5c;
+    color: #a003e454;
     min-height: 80px;
     transition: all ease 0.5s;
   }
@@ -71,7 +71,7 @@ export const AbilitiesDiv = styled.div`
 
   :hover {
     svg {
-      color: #bb00ff;
+      color: #a003e4;
     }
 
     h3 {
@@ -79,7 +79,7 @@ export const AbilitiesDiv = styled.div`
     }
 
     .customSvg {
-      stop-color: #bb00ff;
+      stop-color: #a003e4;
     }
   }
 

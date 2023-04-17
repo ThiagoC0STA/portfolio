@@ -8,17 +8,17 @@ export const Cards = styled.div`
   margin-bottom: 160px;
 
   svg {
-    color: #bd00ff5c;
+    color: #a003e46e;
     font-size: 37px;
     padding: 25px;
     background-color: #16212b;
     border-radius: 17px;
     cursor: pointer;
-    transition: all ease 0.4s;
+    transition: all 0.4s;
   }
 
   svg:hover {
-    color: #bb00ff;
+    color: #a003e4;
   }
 
   @media (max-width: 600px) {
