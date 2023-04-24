@@ -35,6 +35,7 @@ export const AbilitiesDiv = styled.div`
   border: 2px solid transparent;
   transition: all ease 0.4s;
   gap: 20px;
+  cursor: pointer;
 
   svg {
     margin-top: 10px;
@@ -128,4 +129,11 @@ export const AbilitiesDiv = styled.div`
       width: 70px;
     }
   }
+`;
+
+export const CenterDiv = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `;

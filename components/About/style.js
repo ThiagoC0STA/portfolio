@@ -120,6 +120,7 @@ export const Work = styled.article`
   width: 120px;
   height: 90px;
   border-radius: 18px;
+  cursor: pointer;
 
   svg {
     color: #9900ff9e;

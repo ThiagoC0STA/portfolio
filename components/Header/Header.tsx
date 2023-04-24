@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { HeaderDiv, NavDiv } from "./style";
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
+import HoverScale from "../Motion/HoverScale";
 
 const Header: React.FC = () => {
   const [active, setActive] = useState(false);
@@ -9,7 +10,7 @@ const Header: React.FC = () => {
   return (
     <HeaderDiv>
       <a className="logo" href="#">
-        Rodc Dev
+        <HoverScale>Rodc Dev</HoverScale>
       </a>
       <NavDiv>
         <ul className={active ? "active" : "inative"}>

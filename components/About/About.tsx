@@ -6,6 +6,7 @@ import Avatar2 from "../../public/Assets/IMG/avatar2.png";
 import { FaBriefcase } from "react-icons/fa";
 import { ColumnDiv } from "../style";
 import FadeIn from "../FadeIn/FadeIn";
+import HoverScale from "../Motion/HoverScale";
 
 type WorkExperience = {
   title: string;
@@ -58,11 +59,9 @@ const About: React.FC = () => {
 
             <div className="experiences">
               {workExperiences.map((experience, index) => (
-                <WorkComponent
-                  key={index}
-                  icon={FaBriefcase}
-                  experience={experience}
-                />
+                <HoverScale key={index}>
+                  <WorkComponent icon={FaBriefcase} experience={experience} />
+                </HoverScale>
               ))}
             </div>
           </TextsDiv>
