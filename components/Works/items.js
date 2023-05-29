@@ -19,7 +19,7 @@ export const items = [
       "HTML5, CSS3, JavaScript, React, Figma, Next.js, Typescript and Styled components",
   },
   {
-    titulo: "WanderPics - Social Media",
+    titulo: "WanderPics - ( images out )",
     img: YourPlaces,
     url: "https://wanderpics.vercel.app/",
     alt: "A social media website",
