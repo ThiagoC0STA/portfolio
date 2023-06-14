@@ -9,7 +9,7 @@ const Main: React.FC = () => {
     <MainDiv>
       <p className="hello">Hello, i&apos;m</p>
       <h1>Thiago Costa</h1>
-      <p>Front end developer junior/pleno</p>
+      <p>Front end developer</p>
       <div>
         <Link
           href="https://www.linkedin.com/in/rodcdev/"

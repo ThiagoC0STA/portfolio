@@ -1,54 +1,51 @@
 import React from "react";
 import { ColumnDiv } from "../style";
-import { Container, HiddenDiv } from "./style";
-import Slider, { Settings } from "react-slick";
+import { Container } from "./style";
 import { items } from "./items";
 import FadeIn from "../FadeIn/FadeIn";
 import Link from "next/link";
 import Card from "./Card";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, EffectCoverflow } from "swiper";
+import "swiper/css/pagination";
+import "swiper/css/effect-coverflow";
+import "swiper/swiper.min.css";
 
 const Works: React.FC = () => {
-  const SampleNextArrow: React.FC<any> = (props) => {
-    const { className, onClick } = props;
-    return <div className={className} onClick={onClick}></div>;
-  };
-
-  const SamplePrevArrow: React.FC<any> = (props) => {
-    const { className, onClick } = props;
-    return <div className={className} onClick={onClick}></div>;
-  };
-
-  const settings: Settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
-    centerMode: true,
-    centerPadding: "57px",
-    initialSlide: 1,
-    responsive: [
-      {
-        breakpoint: 2000,
-        settings: {
-          slidesToShow: 3,
-        },
+  const swiperParams = {
+    navigation: true,
+    loop: true,
+    grabCursor: true,
+    pagination: {
+      dynamicBullets: true,
+      clickable: true,
+    },
+    effect: "coverflow",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: false,
+    },
+    breakpoints: {
+      2000: {
+        slidesPerView: 4,
       },
-      {
-        breakpoint: 1130,
-        settings: {
-          slidesToShow: 2,
-        },
+      900: {
+        slidesPerView: 3,
       },
-      {
-        breakpoint: 830,
-        settings: {
-          slidesToShow: 1,
-        },
+      500: {
+        slidesPerView: 2,
+        pagination: false,
+        effect: "slider",
       },
-    ],
+      100: {
+        slidesPerView: 1,
+        pagination: false,
+        effect: "slider",
+      },
+    },
   };
 
   return (
@@ -65,13 +62,13 @@ const Works: React.FC = () => {
           More in my github
         </Link>
         <Container>
-          <HiddenDiv>
-            <Slider {...settings}>
-              {items.map((props) => (
-                <Card props={props} key={props.id} />
-              ))}
-            </Slider>
-          </HiddenDiv>
+          <Swiper {...swiperParams} modules={[Pagination, EffectCoverflow]}>
+            {items.map((props) => (
+              <SwiperSlide key={props.id}>
+                <Card props={props} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </Container>
       </ColumnDiv>
     </FadeIn>

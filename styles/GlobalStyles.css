@@ -35,6 +35,30 @@ body {
   overflow-x: hidden;
 }
 
+.swiper-horizontal {
+  height: 320px;
+}
+
+.swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #8004b6 !important;
+}
+
+.swiper-slide {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .swiper-horizontal {
+    height: 150px;
+  }
+}
+
 :target {
   scroll-margin-top: 10.7em;
 }

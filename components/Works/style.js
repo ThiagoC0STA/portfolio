@@ -6,8 +6,6 @@ export const Cards = styled.section`
   padding: 30px;
   background-color: #141c20;
   border-radius: 15px;
-  overflow: hidden;
-  margin-left: 25px;
 
   h4 {
     color: #fcfcfc;
@@ -82,7 +80,7 @@ export const Cards = styled.section`
     }
   }
 
-  @media (max-width: 1540px) {
+  @media (max-width: 1200px) {
     width: 190px;
     height: 150px;
 
@@ -150,118 +148,11 @@ export const Cards = styled.section`
       padding: 4px 12px;
     }
   }
-
-  @media (max-width: 400px) {
-    margin-left: 15px;
-  }
-
-  @media (max-width: 361px) {
-    margin-left: 5px;
-  }
 `;
 
 export const Container = styled.div`
-  width: 80vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  @media (max-width: 1130px) {
-    width: 65vw;
-  }
-
-  @media (max-width: 1030px) {
-    width: 70vw;
-  }
-
-  @media (max-width: 970px) {
-    width: 80vw;
-  }
-
-  @media (max-width: 830px) {
-    width: 50vw;
-  }
-
-  @media (max-width: 780px) {
-    width: 55vw;
-  }
-
-  @media (max-width: 750px) {
-    width: 60vw;
-  }
-
-  @media (max-width: 720px) {
-    width: 50vw;
-  }
-
-  @media (max-width: 700px) {
-    width: 55vw;
-  }
-
-  @media (max-width: 650px) {
-    width: 60vw;
-  }
-
-  @media (max-width: 580px) {
-    width: 65vw;
-  }
-
-  @media (max-width: 530px) {
-    width: 70vw;
-  }
-
-  @media (max-width: 530px) {
-    width: 70vw;
-  }
-
-  @media (max-width: 490px) {
-    width: 90vw;
-  }
-`;
-
-export const HiddenDiv = styled.div`
-  overflow-x: hidden;
-
-  .slick-track {
-    display: flex;
-  }
-
-  .slick-arrow {
-    background-color: #121618;
-    padding: 31px;
-    cursor: pointer;
-    z-index: 999;
-    height: 77%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    ::before {
-      color: #bb00ffda;
-      font-size: 30px;
-    }
-
-    .slick-prev {
-      margin-left: -1px;
-    }
-  }
-
-  @media (max-width: 1540px) {
-    margin-left: 0;
-    .slick-arrow {
-      height: 70%;
-    }
-  }
-
-  @media (max-width: 720px) {
-    .slick-arrow {
-      height: 59%;
-    }
-
-    .slick-arrow {
-      ::before {
-        font-size: 25px;
-      }
-    }
-  }
 `;
