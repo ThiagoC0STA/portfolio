@@ -8,7 +8,6 @@ import Card from "./Card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, EffectCoverflow } from "swiper";
 import "swiper/css/pagination";
-import "swiper/css/effect-coverflow";
 import "swiper/swiper.min.css";
 
 const Works: React.FC = () => {
@@ -19,14 +18,6 @@ const Works: React.FC = () => {
     pagination: {
       dynamicBullets: true,
       clickable: true,
-    },
-    effect: "coverflow",
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: false,
     },
     breakpoints: {
       2000: {
