@@ -25,7 +25,7 @@ export const Cards = styled.div`
     border: 1px solid #a003e4;
     padding: 5px 22px;
     font-size: 15px;
-    color: #fcfcfc;
+    color: #eeeeee;
     font-weight: 500;
     position: relative;
     right: -107px;
@@ -52,7 +52,7 @@ export const Cards = styled.div`
     }
 
     h4 {
-      color: #fcfcfc;
+      color: #eeeeee;
       font-weight: 500;
       font-size: 15px;
     }

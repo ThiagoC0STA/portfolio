@@ -76,7 +76,7 @@ export const AbilitiesDiv = styled.div`
     }
 
     h3 {
-      color: #fcfcfc;
+      color: #eeeeee;
     }
 
     .customSvg {

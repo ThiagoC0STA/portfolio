@@ -8,7 +8,7 @@ export const HeaderDiv = styled.header`
   height: 12vh;
   min-height: 80px;
   max-height: 120px;
-  color: #fcfcfc;
+  color: #eeeeee;
   position: fixed;
   top: 0;
   right: 0;
@@ -27,7 +27,7 @@ export const HeaderDiv = styled.header`
     font-size: 1.8em;
     font-weight: 500;
     margin-left: 15%;
-    color: #fff;
+    color: #eeeeee;
   }
 
   svg {
@@ -116,7 +116,7 @@ export const NavDiv = styled.nav`
     font-size: 1em;
     font-weight: 500;
     transition: all 0.5s;
-    color: #fcfcfc;
+    color: #eeeeee;
   }
 
   a:hover {

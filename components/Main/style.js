@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainDiv = styled.main`
   margin-top: 150px;
-  color: #fcfcfc;
+  color: #eeeeee;
   width: 100vw;
 
   display: flex;
@@ -22,7 +22,7 @@ export const MainDiv = styled.main`
 
   .hello {
     font-weight: normal;
-    color: #ffffff;
+    color: #eeeeee;
     font-size: 1em;
   }
 
@@ -45,7 +45,7 @@ export const MainDiv = styled.main`
 
     #cv-button {
       background: transparent;
-      color: #fcfcfc;
+      color: #eeeeee;
       border: 1.33px solid #a003e4;
       transition: all ease 0.6s;
     }
@@ -65,7 +65,7 @@ export const MainDiv = styled.main`
 
     #github-button:hover {
       background: transparent;
-      color: #fcfcfc;
+      color: #eeeeee;
       border: 1.33px solid #a003e4;
       transition: all ease 0.6s;
     }

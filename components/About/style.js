@@ -4,7 +4,7 @@ export const AboutDiv = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #fcfcfc;
+  color: #eeeeee;
   width: 100%;
 
   section {
@@ -31,7 +31,7 @@ export const AboutDiv = styled.div`
   }
 
   h5 {
-    color: #fcfcfc;
+    color: #eeeeee;
   }
 
   @media (max-width: 850px) {

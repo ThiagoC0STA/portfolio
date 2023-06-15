@@ -8,7 +8,7 @@ export const Cards = styled.section`
   border-radius: 15px;
 
   h4 {
-    color: #fcfcfc;
+    color: #eeeeee;
     font-weight: 500;
     font-size: 15px;
     margin-bottom: 20px;
@@ -39,7 +39,7 @@ export const Cards = styled.section`
 
   svg {
     font-size: 1.1rem;
-    color: #fcfcfcdb;
+    color: #eeeeee;
     transition: color 0.5s;
     cursor: pointer;
   }
