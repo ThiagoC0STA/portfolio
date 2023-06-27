@@ -40,38 +40,38 @@ export const items = [
     id: 5,
   },
   {
+    icon: <DiReact />,
+    name: "Expo",
+    id: 6,
+  },
+  {
+    icon: <DiReact />,
+    name: "React Native",
+    id: 7,
+  },
+  {
     icon: <SiNextdotjs className="smallIcon" />,
     name: "Next.Js",
-    id: 6,
+    id: 8,
   },
   {
     icon: <SiStyledcomponents />,
     name: "Styled Comp",
-    id: 7,
+    id: 9,
   },
   {
     icon: <SiTailwindcss className="smallIcon" />,
     name: "Tailwind Css",
-    id: 8,
+    id: 10,
   },
   {
     icon: <SiGit className="smallIcon" />,
     name: "Git",
-    id: 9,
+    id: 11,
   },
   {
     icon: <BsGithub className="smallIcon" />,
     name: "GitHub",
-    id: 10,
-  },
-  {
-    icon: <FaWordpress className="smallIcon" />,
-    name: "Wordpress",
-    id: 11,
-  },
-  {
-    icon: <SiWoocommerce />,
-    name: "WooCommerce",
     id: 12,
   },
   {

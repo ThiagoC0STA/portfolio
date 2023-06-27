@@ -30,7 +30,7 @@ const About: React.FC = () => {
   const workExperiences: WorkExperience[] = [
     { title: "Freelancer", duration: "+2 years" },
     { title: "La costa", duration: "6 months" },
-    { title: "Experience", duration: "On the way" },
+    { title: "Wansoft", duration: "Current" },
   ];
 
   return (
