@@ -5,28 +5,29 @@ import {
   CashBuild,
   Lacosta,
   YourPlaces,
+  Metaverse,
 } from "../../public/Assets/Works/index";
 
 export const items = [
+  {
+    titulo: "Metaverse - Animation study",
+    img: Metaverse,
+    url: "https://metaverse-landing-page-three.vercel.app/",
+    alt: "A study for animations",
+    github: "https://github.com/ThiagoC0STA/Metaverse-landing-page",
+    id: 1,
+    techs:
+      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Styled components, Framer-Motion",
+  },
   {
     titulo: "Cash build - Real Estate",
     img: CashBuild,
     url: "https://www.cashbuild.com.br/",
     alt: "A real estate website",
     github: "https://github.com/ThiagoC0STA/Cash-build",
-    id: 1,
-    techs:
-      "HTML5, CSS3, JavaScript, React, Figma, Next.js, Typescript and Styled components",
-  },
-  {
-    titulo: "WanderPics - ( images out )",
-    img: YourPlaces,
-    url: "https://wanderpics.vercel.app/",
-    alt: "A social media website",
-    github: "https://github.com/ThiagoC0STA/Wander-pics",
     id: 2,
     techs:
-      "HTML5, CSS3, JavaScript, React, Figma, MongoDB, Express and Node.js",
+      "HTML5, CSS3, JavaScript, React, Figma, Next.js, Typescript and Styled components",
   },
   {
     titulo: "La costa ( in production )",
@@ -65,5 +66,15 @@ export const items = [
     id: 6,
     techs:
       "HTML5, CSS3, JavaScript, React, Next.js, Figma and Styled components",
+  },
+  {
+    titulo: "WanderPics - ( images out )",
+    img: YourPlaces,
+    url: "https://wanderpics.vercel.app/",
+    alt: "A social media website",
+    github: "https://github.com/ThiagoC0STA/Wander-pics",
+    id: 7,
+    techs:
+      "HTML5, CSS3, JavaScript, React, Figma, MongoDB, Express and Node.js",
   },
 ];
