@@ -12,10 +12,37 @@ export const Cards = styled.div`
     padding: 30px;
     background-color: #141c20;
     border-radius: 15px;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    div:first-child {
+      justify-content: flex-start;
+      gap: 15px;
+      margin-bottom: 20px;
+
+      svg {
+        color: #a003e4c3;
+        font-size: 20px;
+      }
+
+      h4 {
+        color: #eeeeee;
+        font-weight: 500;
+        font-size: 15px;
+      }
+    }
+
+    div:last-child {
+      justify-content: flex-end;
+    }
   }
 
   p {
     max-height: 50px;
+    color: #ccc;
   }
 
   a {
@@ -28,7 +55,6 @@ export const Cards = styled.div`
     color: #eeeeee;
     font-weight: 500;
     position: relative;
-    right: -107px;
     bottom: -80px;
     transition: all ease 0.6s;
   }
@@ -37,25 +63,6 @@ export const Cards = styled.div`
     background-color: #a003e4;
     transition: all ease 0.6s;
     color: #141a20;
-  }
-
-  div {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 15px;
-    margin-bottom: 20px;
-
-    svg {
-      color: #a003e4c3;
-      font-size: 20px;
-    }
-
-    h4 {
-      color: #eeeeee;
-      font-weight: 500;
-      font-size: 15px;
-    }
   }
 
   @media (max-width: 850px) {
@@ -68,12 +75,12 @@ export const Cards = styled.div`
     }
 
     section {
-      width: 190px;
+      width: 60vw;
       height: 150px;
     }
 
     a {
-      right: -88px;
+      right: 0;
       bottom: -50px;
       font-size: 10px;
     }
@@ -83,32 +90,5 @@ export const Cards = styled.div`
     flex-direction: column;
     gap: 40px;
     margin-top: 20px;
-  }
-
-  @media (max-width: 480px) {
-    section {
-      width: 160px;
-      height: 120px;
-    }
-
-    div {
-      svg {
-        font-size: 15px;
-      }
-    }
-
-    h4 {
-      font-size: 10px !important;
-    }
-
-    p {
-      font-size: 10px;
-    }
-
-    a {
-      right: -85px;
-      bottom: -30px;
-      font-size: 8px;
-    }
   }
 `;

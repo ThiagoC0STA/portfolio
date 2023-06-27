@@ -40,7 +40,13 @@ body {
 }
 
 .swiper-horizontal {
-  height: 320px;
+  height: 420px;
+}
+
+@media (max-width: 900px) {
+  .swiper-horizontal {
+    height: 340px;
+  }
 }
 
 .swiper-pagination-bullet {
@@ -55,12 +61,6 @@ body {
   display: flex !important;
   align-items: flex-start;
   justify-content: center;
-}
-
-@media (max-width: 720px) {
-  .swiper-horizontal {
-    height: 150px;
-  }
 }
 
 :target {

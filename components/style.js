@@ -15,14 +15,14 @@ export const ColumnDiv = styled.div`
 
   h3,
   .githublink {
-    color: #ccc;
+    color: #e9e9e9;
     font-weight: 500;
     margin: 1px 0 45px 0;
     font-size: 0.85em;
   }
 
   p {
-    color: #ccc;
+    color: #e9e9e9;
     font-size: 0.85em;
   }
 

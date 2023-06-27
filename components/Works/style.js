@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Cards = styled.section`
-  width: 300px;
-  height: 210px;
+  width: 22vw;
   padding: 30px;
   background-color: #141c20;
   border-radius: 15px;
@@ -19,8 +18,8 @@ export const Cards = styled.section`
     position: absolute;
     padding: 30px;
     margin: -30px;
-    width: 300px;
-    height: 210px;
+    width: 22vw;
+    height: 230px;
     border-radius: 15px;
   }
 
@@ -46,6 +45,8 @@ export const Cards = styled.section`
 
   .project-image {
     object-fit: cover;
+    width: 100%;
+    height: 210px;
     border-radius: 8px;
   }
 
@@ -80,17 +81,13 @@ export const Cards = styled.section`
     }
   }
 
-  @media (max-width: 1200px) {
-    width: 190px;
-    height: 150px;
+  @media (max-width: 1400px) {
+    width: 30vw;
+    height: 250px;
 
     .techs {
-      width: 190px;
-      height: 150px;
-    }
-
-    p {
-      font-size: 10px;
+      width: 30vw;
+      height: 250px;
     }
 
     .MainTec {
@@ -106,46 +103,47 @@ export const Cards = styled.section`
     }
 
     .project-image {
-      width: 170px !important;
-      height: 76px !important;
+      height: 170px !important;
     }
   }
 
-  @media (max-width: 720px) {
-    width: 140px;
-    height: 110px;
-    padding: 20px;
+  @media (max-width: 900px) {
+    width: 50vw;
+    height: 300px;
 
     h4 {
-      font-size: 8px;
+      font-size: 14px;
     }
 
     .techs {
-      width: 120px;
-      height: 90px;
-      margin: -20px;
-      padding: 20px;
-    }
-
-    p {
-      font-size: 8px;
-      margin-top: -7px;
+      width: 50vw;
+      height: 300px;
     }
 
     .project-image {
-      width: 120px !important;
-      height: 61px !important;
-      margin-top: -10px;
+      height: 220px !important;
     }
 
-    .links {
-      bottom: -10px;
+    svg {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 900px) {
+    width: 60vw;
+    height: 220px;
+
+    h4 {
+      font-size: 12px;
     }
 
-    a,
-    button {
-      font-size: 8px;
-      padding: 4px 12px;
+    .project-image {
+      height: 130px !important;
+    }
+
+    .techs {
+      width: 60vw;
+      height: 220px;
     }
   }
 `;

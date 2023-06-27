@@ -14,12 +14,9 @@ export const GeralDiv = styled.div`
   }
 
   @media (max-width: 600px) {
-    width: 400px;
+    width: 90vw;
     margin-bottom: 60px;
-  }
-
-  @media (max-width: 480px) {
-    width: 300px;
+    gap: 12px;
   }
 `;
 
@@ -40,7 +37,7 @@ export const AbilitiesDiv = styled.div`
   svg {
     margin-top: 10px;
     font-size: 5em;
-    color: #a003e454;
+    color: #a003e4ad;
     min-height: 80px;
     transition: all ease 0.5s;
   }
@@ -109,24 +106,17 @@ export const AbilitiesDiv = styled.div`
   }
 
   @media (max-width: 600px) {
-    width: 70px;
-    height: 70px;
-
-    svg {
-      font-size: 3em;
-    }
+    width: 90px;
+    height: 100px;
+    gap: 0;
 
     h3 {
       font-size: 10px !important;
     }
 
-    .smallIcon {
-      font-size: 2.2em;
-    }
-
     ::before {
-      height: 70px;
-      width: 70px;
+      height: 90px;
+      width: 90px;
     }
   }
 `;

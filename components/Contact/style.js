@@ -8,7 +8,7 @@ export const Cards = styled.div`
   margin-bottom: 160px;
 
   svg {
-    color: #a003e46e;
+    color: #a003e4ad;
     font-size: 37px;
     padding: 25px;
     background-color: #141c20;

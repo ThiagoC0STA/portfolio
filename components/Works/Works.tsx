@@ -8,33 +8,29 @@ import Card from "./Card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, EffectCoverflow } from "swiper";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "swiper/swiper.min.css";
 
 const Works: React.FC = () => {
   const swiperParams = {
-    navigation: true,
-    loop: true,
     grabCursor: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
     pagination: {
       dynamicBullets: true,
       clickable: true,
     },
     breakpoints: {
-      2000: {
-        slidesPerView: 4,
-      },
-      900: {
+      1400: {
         slidesPerView: 3,
       },
-      500: {
+      900: {
         slidesPerView: 2,
-        pagination: false,
-        effect: "slider",
       },
       100: {
         slidesPerView: 1,
-        pagination: false,
-        effect: "slider",
       },
     },
   };

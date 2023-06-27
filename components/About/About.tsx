@@ -7,10 +7,12 @@ import { FaBriefcase } from "react-icons/fa";
 import { ColumnDiv } from "../style";
 import FadeIn from "../FadeIn/FadeIn";
 import HoverScale from "../Motion/HoverScale";
+import Link from "next/link";
 
 type WorkExperience = {
   title: string;
   duration: string;
+  link: string;
 };
 
 type WorkProps = {
@@ -19,18 +21,28 @@ type WorkProps = {
 };
 
 const WorkComponent: React.FC<WorkProps> = ({ icon: Icon, experience }) => (
-  <Work>
-    <Icon />
-    <p>{experience.title}</p>
-    <p>{experience.duration}</p>
-  </Work>
+  <Link href={experience.link} target="__blank">
+    <Work>
+      <Icon />
+      <p>{experience.title}</p>
+      <p>{experience.duration}</p>
+    </Work>
+  </Link>
 );
 
 const About: React.FC = () => {
   const workExperiences: WorkExperience[] = [
-    { title: "Freelancer", duration: "+2 years" },
-    { title: "La costa", duration: "6 months" },
-    { title: "Wansoft", duration: "Current" },
+    { title: "Freelancer", duration: "+2 years", link: "#contact" },
+    {
+      title: "La costa",
+      duration: "6 months",
+      link: "https://www.lacostacorretora.com.br/",
+    },
+    {
+      title: "Wansoft",
+      duration: "Current",
+      link: "https://www.wansoftbrazil.com/",
+    },
   ];
 
   return (

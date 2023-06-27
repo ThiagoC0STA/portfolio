@@ -7,7 +7,7 @@ const Typescript = () => {
       viewBox="0 0 48 48"
       width="0.92em"
       height="0.92em"
-      color="#bd00ff5c"
+      color="#a003e4ad"
     >
       <linearGradient
         id="atmafua87GAY-Q3DVUuwga"
@@ -17,7 +17,7 @@ const Typescript = () => {
         y2="24"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" className="customSvg" stopColor="#bd00ff5c" />
+        <stop offset="0" className="customSvg" stopColor="#a003e4ad" />
       </linearGradient>
       <path
         fill="url(#atmafua87GAY-Q3DVUuwga)"

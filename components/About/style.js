@@ -47,13 +47,9 @@ export const AboutDiv = styled.div`
   }
 
   @media (max-width: 720px) {
-    p {
-      font-size: 0.68em;
-    }
-
     .container {
       flex-direction: column;
-      gap: 70px;
+      gap: 50px;
     }
   }
 `;
@@ -135,7 +131,7 @@ export const Work = styled.article`
 
   p:nth-child(2) {
     font-weight: 500;
-    color: #ccc;
+    color: #e9e9e9;
   }
 
   @media (max-width: 850px) {

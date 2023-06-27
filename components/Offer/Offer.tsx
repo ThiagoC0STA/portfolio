@@ -21,9 +21,11 @@ const Offer: React.FC = () => {
               You need to create a website professional or simple? contact me
               and we will discuss your needs and desires
             </p>
-            <Link href="#contact" scroll={false}>
-              Contact Me
-            </Link>
+            <div>
+              <Link href="#contact" scroll={false}>
+                Contact Me
+              </Link>
+            </div>
           </section>
 
           <section>
@@ -35,9 +37,11 @@ const Offer: React.FC = () => {
               You need a new design, something more modern? contact me and we
               will discuss your needs and desires
             </p>
-            <Link href="#contact" scroll={false}>
-              Contact Me
-            </Link>
+            <div>
+              <Link href="#contact" scroll={false}>
+                Contact Me
+              </Link>
+            </div>
           </section>
         </Cards>
       </ColumnDiv>
