@@ -50,23 +50,6 @@ export const AbilitiesDiv = styled.div`
     font-size: 4em;
   }
 
-  ::before {
-    content: "";
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    background: #1b9be3d6;
-    z-index: -1;
-    filter: blur(7px);
-    opacity: 0;
-    transition: all ease 0.6s;
-  }
-
-  :hover::before {
-    transition: all ease 0.6s;
-    opacity: 1;
-  }
-
   :hover {
     svg {
       color: #1b9be3;
@@ -98,11 +81,6 @@ export const AbilitiesDiv = styled.div`
     .smallIcon {
       font-size: 3.2em;
     }
-
-    ::before {
-      height: 100px;
-      width: 100px;
-    }
   }
 
   @media (max-width: 600px) {
@@ -112,11 +90,6 @@ export const AbilitiesDiv = styled.div`
 
     h3 {
       font-size: 10px !important;
-    }
-
-    ::before {
-      height: 90px;
-      width: 90px;
     }
   }
 `;

@@ -14,7 +14,7 @@ export const HeaderDiv = styled.header`
   right: 0;
   left: 0;
   box-shadow: 0 0 7px 0 #030303;
-  z-index: 9999;
+  z-index: 999;
   width: 100vw;
 
   h1,

@@ -59,7 +59,7 @@ export const AvatarDiv = styled.div`
   height: 220px;
   border-radius: 30px;
   overflow: hidden;
-  background: linear-gradient(206.57deg, #000 28%, #1b9be3 100%);
+  background: linear-gradient(33deg, #000 30%, #1b9be3 100%);
 
   img {
     top: -20px !important;

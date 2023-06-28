@@ -16,6 +16,7 @@ export default function Home() {
       <Head>
         <title>Thiago Costa</title>
       </Head>
+
       <Header />
       <Main />
       <About />

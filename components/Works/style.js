@@ -56,7 +56,6 @@ export const Cards = styled.section`
     border-radius: 6px;
     border: 1px solid transparent;
     padding: 6px 18px;
-    transition: all ease 0.6s;
     display: flex;
     align-items: center;
     justify-content: center;

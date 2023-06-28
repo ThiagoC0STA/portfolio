@@ -6,3 +6,4 @@ export { default as Offer } from "./Offer/Offer";
 export { default as Works } from "./Works/Works";
 export { default as Contact } from "./Contact/Contact";
 export { default as Footer } from "./Footer/Footer";
+export { default as LoadingAnimation } from "./LoadingAnimation/LoadingAnimation";
