@@ -68,7 +68,7 @@ export const LoadingContainer = styled.div`
   p:nth-child(3) {
     animation: ${fadeIn} 0.5s ease-in, ${fadeOut} 2s 4.5s ease-out;
     color: #11f0c9;
-    margin-top: 280px;
+    margin-top: 350px;
     font-size: 16px;
     position: absolute;
   }
