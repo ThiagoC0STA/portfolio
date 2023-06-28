@@ -32,19 +32,11 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="description" content="Welcome to my portfolio website" />
+          <meta
+            httpEquiv="Content-Security-Policy"
+            content="script-src 'self' 'unsafe-eval';"
+          />
           <link rel="icon" href="/icon.png" />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            charSet="UTF-8"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-            onLoad="this.media='all'"
-          />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-          />
         </Head>
         <body>
           <Main />
