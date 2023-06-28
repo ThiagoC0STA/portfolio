@@ -11,18 +11,10 @@ export default function Card({ props }: any) {
 
   return (
     <Cards>
-      {techsModal && (
-        <div className="techs">
-          <h4>Technologies Used</h4>
-          <p>{props.techs}</p>
-        </div>
-      )}
       <h4>{props.titulo}</h4>
       <Image
         src={props.img}
         alt={props.alt}
-        width={300}
-        height={131}
         quality={100}
         className="project-image"
       />
@@ -44,14 +36,11 @@ export default function Card({ props }: any) {
         >
           <HiOutlineExternalLink />
         </Link>
+      </div>
 
-        <button
-          className={techsModal && "active"}
-          tabIndex={-1}
-          onClick={() => setTechsModal(!techsModal)}
-        >
-          <BiCodeBlock />
-        </button>
+      <div className="techs">
+        <h5>Technologies in this project:</h5>
+        <p>{props.techs}</p>
       </div>
     </Cards>
   );

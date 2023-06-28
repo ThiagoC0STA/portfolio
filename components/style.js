@@ -9,7 +9,7 @@ export const ColumnDiv = styled.div`
   scroll-margin-top: 10.7em !important;
 
   h2 {
-    color: #a003e4;
+    color: #1b9be3;
     font-size: 1.7em;
   }
 

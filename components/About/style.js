@@ -17,7 +17,7 @@ export const AboutDiv = styled.div`
 
   .container {
     display: flex;
-    gap: 120px;
+    gap: 130px;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -59,8 +59,7 @@ export const AvatarDiv = styled.div`
   height: 220px;
   border-radius: 30px;
   overflow: hidden;
-  background: transparent;
-  background: linear-gradient(206.57deg, #7100bdd6 16.67%, #ff2f2fd6 100%);
+  background: linear-gradient(206.57deg, #000 28%, #1b9be3 100%);
 
   img {
     top: -20px !important;
@@ -76,14 +75,21 @@ export const AvatarDiv = styled.div`
 
 export const TextsDiv = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
   width: 500px;
   gap: 50px;
 
   p:nth-child(1) {
     line-height: 24px;
+  }
+
+  .company {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 1px;
+    font-size: 10px;
   }
 
   .experiences {
@@ -95,10 +101,19 @@ export const TextsDiv = styled.div`
 
   @media (max-width: 1140px) {
     width: 380px;
+
+    .company {
+      margin-left: 0;
+      margin-top: 110px;
+    }
   }
 
   @media (max-width: 850px) {
     width: 320px;
+
+    .company {
+      margin-top: 90px;
+    }
 
     p:nth-child(1) {
       line-height: 18px;
@@ -111,27 +126,25 @@ export const Work = styled.article`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 6px;
-  background-color: #141c20;
+  gap: 3px;
+  background-color: #0f1a20;
   width: 120px;
   height: 90px;
   border-radius: 18px;
   cursor: pointer;
 
   svg {
-    color: #9900ff9e;
+    color: #1b9be39e;
     font-size: 17px;
-  }
-
-  p:nth-child(3) {
-    font-size: 0.65em;
-    display: flex;
-    justify-content: center;
   }
 
   p:nth-child(2) {
     font-weight: 500;
     color: #e9e9e9;
+  }
+
+  p:nth-child(3) {
+    font-size: 0.65em;
   }
 
   @media (max-width: 850px) {

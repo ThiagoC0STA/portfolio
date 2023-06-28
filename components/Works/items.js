@@ -58,16 +58,6 @@ export const items = [
     techs: "HTML5, CSS3, JavaScript, React, Tailwind Css and Syncfusion",
   },
   {
-    titulo: "Dogs - Social Media",
-    img: Dogs,
-    url: "https://dogs-thiagoc0sta.vercel.app/",
-    alt: "A social media for dogs",
-    github: "https://github.com/ThiagoC0STA/Dogs",
-    id: 6,
-    techs:
-      "HTML5, CSS3, JavaScript, React, Next.js, Figma and Styled components",
-  },
-  {
     titulo: "WanderPics - ( images out )",
     img: YourPlaces,
     url: "https://wanderpics.vercel.app/",

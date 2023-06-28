@@ -27,7 +27,7 @@ export const AbilitiesDiv = styled.div`
   flex-direction: column;
   width: 150px;
   height: 150px;
-  background-color: #141c20;
+  background-color: #0f1a20;
   border-radius: 10px;
   border: 2px solid transparent;
   transition: all ease 0.4s;
@@ -37,7 +37,7 @@ export const AbilitiesDiv = styled.div`
   svg {
     margin-top: 10px;
     font-size: 5em;
-    color: #a003e4ad;
+    color: #1b9be3ad;
     min-height: 80px;
     transition: all ease 0.5s;
   }
@@ -55,9 +55,9 @@ export const AbilitiesDiv = styled.div`
     position: absolute;
     height: 150px;
     width: 150px;
-    background: linear-gradient(206.57deg, #7100bdd6 16.67%, #ff2f2fd6 100%);
+    background: #1b9be3d6;
     z-index: -1;
-    filter: blur(14px);
+    filter: blur(7px);
     opacity: 0;
     transition: all ease 0.6s;
   }
@@ -69,7 +69,7 @@ export const AbilitiesDiv = styled.div`
 
   :hover {
     svg {
-      color: #a003e4;
+      color: #1b9be3;
     }
 
     h3 {
@@ -77,7 +77,7 @@ export const AbilitiesDiv = styled.div`
     }
 
     .customSvg {
-      stop-color: #a003e4;
+      stop-color: #1b9be3;
     }
   }
 

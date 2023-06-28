@@ -69,6 +69,8 @@ const About: React.FC = () => {
               customers and seeking more and more learning.
             </p>
 
+            <p className="company">Companies:</p>
+
             <div className="experiences">
               {workExperiences.map((experience, index) => (
                 <HoverScale key={index}>

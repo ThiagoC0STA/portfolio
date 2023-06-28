@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderDiv = styled.header`
-  background-color: #141c20;
+  background-color: #0e1318;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -120,6 +120,6 @@ export const NavDiv = styled.nav`
   }
 
   a:hover {
-    color: #a003e4;
+    color: #1b9be3;
   }
 `;

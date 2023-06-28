@@ -2,25 +2,23 @@ import styled from "styled-components";
 
 export const Cards = styled.section`
   width: 22vw;
+  height: 360px;
   padding: 30px;
-  background-color: #141c20;
+  background-color: #0f1a20;
   border-radius: 15px;
 
   h4 {
     color: #eeeeee;
     font-weight: 500;
-    font-size: 15px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
   }
 
-  .techs {
-    background-color: #141c20;
-    position: absolute;
-    padding: 30px;
-    margin: -30px;
-    width: 22vw;
-    height: 230px;
-    border-radius: 15px;
+  h5 {
+    color: #eeeeee;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 20px;
   }
 
   p {
@@ -30,15 +28,16 @@ export const Cards = styled.section`
   .links {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 10px;
     position: relative;
-    bottom: -20px;
+    bottom: 47px;
+    margin-right: 10px;
   }
 
   svg {
     font-size: 1.1rem;
-    color: #eeeeee;
+    color: #eee;
     transition: color 0.5s;
     cursor: pointer;
   }
@@ -46,25 +45,25 @@ export const Cards = styled.section`
   .project-image {
     object-fit: cover;
     width: 100%;
-    height: 210px;
+    height: 180px;
     border-radius: 8px;
   }
 
-  a,
-  button {
-    background-color: transparent;
+  a {
+    background-color: #010a109e;
+    backdrop-filter: blur(15px);
     cursor: pointer;
     border-radius: 6px;
-    border: 1px solid #a003e4;
-    padding: 5px 15px;
+    border: 1px solid transparent;
+    padding: 6px 18px;
     transition: all ease 0.6s;
     display: flex;
     align-items: center;
     justify-content: center;
 
     :hover {
-      background-color: #a003e4;
-      transition: all ease 0.6s;
+      background-color: #1b9ae3e5;
+      transition: all ease 0.4s;
 
       svg {
         color: #141a20;
@@ -72,18 +71,9 @@ export const Cards = styled.section`
     }
   }
 
-  .active {
-    background-color: #a003e4;
-    transition: all ease 0.6s;
-
-    svg {
-      color: #141a20;
-    }
-  }
-
   @media (max-width: 1400px) {
     width: 30vw;
-    height: 250px;
+    height: 340px;
 
     .techs {
       width: 30vw;
@@ -98,10 +88,6 @@ export const Cards = styled.section`
       font-size: 12px;
     }
 
-    svg {
-      font-size: 0.9rem;
-    }
-
     .project-image {
       height: 170px !important;
     }
@@ -109,7 +95,7 @@ export const Cards = styled.section`
 
   @media (max-width: 900px) {
     width: 50vw;
-    height: 300px;
+    height: 390px;
 
     h4 {
       font-size: 14px;
@@ -129,9 +115,9 @@ export const Cards = styled.section`
     }
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     width: 60vw;
-    height: 220px;
+    height: 310px;
 
     h4 {
       font-size: 12px;
@@ -149,8 +135,12 @@ export const Cards = styled.section`
 `;
 
 export const Container = styled.div`
-  width: 100%;
+  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 800px) {
+    width: 100vw;
+  }
 `;

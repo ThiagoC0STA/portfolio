@@ -16,7 +16,7 @@ export const MainDiv = styled.main`
   }
 
   p {
-    color: #a003e4;
+    color: #1b9be3;
     font-size: 1em;
   }
 
@@ -46,18 +46,18 @@ export const MainDiv = styled.main`
     #cv-button {
       background: transparent;
       color: #eeeeee;
-      border: 1.33px solid #a003e4;
+      border: 1.33px solid #1b9be3;
       transition: all ease 0.6s;
     }
 
     #cv-button:hover {
-      background-color: #a003e4;
+      background-color: #1b9be3;
       transition: all ease 0.6s;
       color: #000000;
     }
 
     #github-button {
-      background-color: #a003e4;
+      background-color: #1b9be3;
       color: #000000;
       transition: all ease 0.6s;
       border: 1.33px solid transparent;
@@ -66,7 +66,7 @@ export const MainDiv = styled.main`
     #github-button:hover {
       background: transparent;
       color: #eeeeee;
-      border: 1.33px solid #a003e4;
+      border: 1.33px solid #1b9be3;
       transition: all ease 0.6s;
     }
   }
@@ -95,7 +95,7 @@ export const MainDiv = styled.main`
 export const AvatarDiv = styled.div`
   width: 270px;
   height: 250px;
-  background: linear-gradient(206.57deg, #7100bd 16.67%, #ff2f2f 100%);
+  background: linear-gradient(206.57deg, #000 16.67%, #1b9be3 100%);
   border-radius: 40px 40px 5px 5px;
   display: flex;
   justify-content: center;

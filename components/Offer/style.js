@@ -10,7 +10,7 @@ export const Cards = styled.div`
     width: 250px;
     height: 210px;
     padding: 30px;
-    background-color: #141c20;
+    background-color: #0f1a20;
     border-radius: 15px;
 
     div {
@@ -24,7 +24,7 @@ export const Cards = styled.div`
       margin-bottom: 20px;
 
       svg {
-        color: #a003e4c3;
+        color: #1b9be3c3;
         font-size: 20px;
       }
 
@@ -49,7 +49,7 @@ export const Cards = styled.div`
     background-color: transparent;
     cursor: pointer;
     border-radius: 6px;
-    border: 1px solid #a003e4;
+    border: 1px solid #1b9be3;
     padding: 5px 22px;
     font-size: 15px;
     color: #eeeeee;
@@ -60,7 +60,7 @@ export const Cards = styled.div`
   }
 
   a:hover {
-    background-color: #a003e4;
+    background-color: #1b9be3;
     transition: all ease 0.6s;
     color: #141a20;
   }

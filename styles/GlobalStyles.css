@@ -34,18 +34,24 @@ h3 {
 }
 
 body {
-  background-color: #121618;
+  background-color: #08090a;
   width: 100vw;
   overflow-x: hidden;
 }
 
 .swiper-horizontal {
-  height: 420px;
+  height: 480px;
 }
 
 @media (max-width: 900px) {
   .swiper-horizontal {
-    height: 340px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .swiper-horizontal {
+    height: 420px;
   }
 }
 
@@ -54,7 +60,7 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #8004b6 !important;
+  background-color: #1b9be3 !important;
 }
 
 .swiper-slide {
@@ -82,7 +88,7 @@ body {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #620c90;
+  background-color: #00ccff97;
   transition: all smooth 1s;
 }
 
