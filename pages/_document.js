@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="description" content="Welcome to my portfolio website" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/icon.png" />
           <link
             rel="stylesheet"
             type="text/css"
