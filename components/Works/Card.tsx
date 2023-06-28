@@ -4,14 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
-import { BiCodeBlock } from "react-icons/bi";
 
 export default function Card({ props }: any) {
   const [techsModal, setTechsModal] = useState<Boolean>();
 
   return (
     <Cards>
-      <h4>{props.titulo}</h4>
+      <p className="title">{props.titulo}</p>
       <Image
         src={props.img}
         alt={props.alt}
@@ -21,7 +20,6 @@ export default function Card({ props }: any) {
 
       <div className="links">
         <Link
-          tabIndex={-1}
           href={props.github}
           target="_blank"
           rel="noopener noreferrer"
@@ -29,7 +27,6 @@ export default function Card({ props }: any) {
           <AiFillGithub />
         </Link>
         <Link
-          tabIndex={-1}
           href={props.url}
           target="_blank"
           rel="noopener noreferrer"
@@ -39,8 +36,8 @@ export default function Card({ props }: any) {
       </div>
 
       <div className="techs">
-        <h5>Technologies in this project:</h5>
-        <p>{props.techs}</p>
+        <p className="techs-title">Technologies in this project:</p>
+        <p className="techs-text">{props.techs}</p>
       </div>
     </Cards>
   );

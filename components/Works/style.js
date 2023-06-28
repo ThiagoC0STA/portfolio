@@ -7,21 +7,21 @@ export const Cards = styled.section`
   background-color: #0f1a20;
   border-radius: 15px;
 
-  h4 {
+  .title {
     color: #eeeeee;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 30px;
   }
 
-  h5 {
+  .techs-title {
     color: #eeeeee;
     font-weight: 500;
     font-size: 13px;
     margin-bottom: 20px;
   }
 
-  p {
+  .techs-text {
     font-size: 12px;
   }
 
@@ -84,7 +84,7 @@ export const Cards = styled.section`
       font-size: 12px;
     }
 
-    h4 {
+    .title {
       font-size: 12px;
     }
 
@@ -97,7 +97,7 @@ export const Cards = styled.section`
     width: 50vw;
     height: 390px;
 
-    h4 {
+    .title {
       font-size: 14px;
     }
 
@@ -119,8 +119,16 @@ export const Cards = styled.section`
     width: 60vw;
     height: 310px;
 
-    h4 {
+    .title {
       font-size: 12px;
+    }
+
+    .techs-title {
+      font-size: 10px;
+    }
+
+    .techs-text {
+      font-size: 9px;
     }
 
     .project-image {
