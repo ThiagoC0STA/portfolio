@@ -17,6 +17,7 @@ const Main: React.FC = () => {
             href="https://www.linkedin.com/in/rodcdev/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Linkedin"
             id="cv-button"
           >
             My Linkedin
@@ -24,6 +25,7 @@ const Main: React.FC = () => {
           <Link
             href="https://github.com/thiagoc0sta"
             target="_blank"
+            aria-label="Github"
             rel="noopener noreferrer"
             id="github-button"
           >

@@ -22,6 +22,7 @@ export default function Card({ props }: any) {
         <Link
           href={props.github}
           target="_blank"
+          aria-label="GitHub"
           rel="noopener noreferrer"
         >
           <AiFillGithub />
@@ -29,6 +30,7 @@ export default function Card({ props }: any) {
         <Link
           href={props.url}
           target="_blank"
+          aria-label="Site"
           rel="noopener noreferrer"
         >
           <HiOutlineExternalLink />
