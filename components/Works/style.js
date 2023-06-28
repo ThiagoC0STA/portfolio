@@ -121,15 +121,7 @@ export const Cards = styled.section`
     .title {
       font-size: 12px;
     }
-
-    .techs-title {
-      font-size: 10px;
-    }
-
-    .techs-text {
-      font-size: 9px;
-    }
-
+    
     .project-image {
       height: 130px !important;
     }

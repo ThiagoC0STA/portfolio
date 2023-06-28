@@ -71,7 +71,7 @@ export const Cards = styled.div`
     }
 
     p {
-      font-size: 11px;
+      font-size: 12px;
     }
 
     section {
@@ -82,7 +82,7 @@ export const Cards = styled.div`
     a {
       right: 0;
       bottom: -50px;
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 

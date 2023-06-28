@@ -89,7 +89,7 @@ export const TextsDiv = styled.div`
     position: absolute;
     margin-top: 90px;
     margin-left: 1px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .experiences {
@@ -144,23 +144,19 @@ export const Work = styled.article`
   }
 
   p:nth-child(3) {
-    font-size: 0.65em;
+    font-size: 12px;
   }
 
   @media (max-width: 850px) {
     width: 100px;
     height: 70px;
 
-    p:nth-child(3) {
-      font-size: 0.55em;
-    }
-
     svg {
       font-size: 15px;
     }
 
     p:nth-child(2) {
-      font-size: 11px;
+      font-size: 12px;
     }
   }
 `;

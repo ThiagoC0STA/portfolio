@@ -100,7 +100,7 @@ export const LoadingContainer = styled.div`
     }
 
     p:nth-child(3) {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 `;

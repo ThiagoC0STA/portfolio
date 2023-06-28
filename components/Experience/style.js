@@ -75,7 +75,7 @@ export const AbilitiesDiv = styled.div`
     }
 
     h3 {
-      font-size: 11px !important;
+      font-size: 12px !important;
     }
 
     .smallIcon {
@@ -89,7 +89,7 @@ export const AbilitiesDiv = styled.div`
     gap: 0;
 
     h3 {
-      font-size: 10px !important;
+      font-size: 12px !important;
     }
   }
 `;
