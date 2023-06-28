@@ -10,18 +10,21 @@ interface Props {
 const FadeIn: React.FC<Props> = ({ children }) => {
   const [show, setShow] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  const handleScroll = () => {
+    let element = ref.current;
+    if (!element) return;
+    let elementTop = element.getBoundingClientRect().top;
+    let elementBottom = element.getBoundingClientRect().bottom;
+    let screenHeight = window.innerHeight;
+    if (elementTop < screenHeight && elementBottom >= 0) {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+  };
 
   useEffect(() => {
-    const handleScroll = () => {
-      let element = ref.current;
-      if (!element) return;
-      let elementTop = element.getBoundingClientRect().top;
-      let screenHeight = window.innerHeight;
-      if (elementTop < screenHeight) {
-        setShow(true);
-      }
-    };
-
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
 
     return () => {
