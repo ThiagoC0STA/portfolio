@@ -46,7 +46,7 @@ const Works: React.FC = () => {
           aria-label="Github"
           className="githublink"
         >
-          More in my github
+          Call me for a chat to show you all the projects I've participated in
         </Link>
         <Container>
           <Swiper {...swiperParams} modules={[Pagination, EffectCoverflow]}>

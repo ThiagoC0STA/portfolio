@@ -19,6 +19,7 @@ export const ColumnDiv = styled.div`
     font-weight: 500;
     margin: 1px 0 45px 0;
     font-size: 0.85em;
+    
   }
 
   p {

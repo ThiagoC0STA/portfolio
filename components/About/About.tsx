@@ -32,7 +32,6 @@ const WorkComponent: React.FC<WorkProps> = ({ icon: Icon, experience }) => (
 
 const About: React.FC = () => {
   const workExperiences: WorkExperience[] = [
-    { title: "Freelancer", duration: "+2 years", link: "#contact" },
     {
       title: "La costa",
       duration: "6 months",
@@ -40,9 +39,10 @@ const About: React.FC = () => {
     },
     {
       title: "Wansoft",
-      duration: "Current",
+      duration: "4 months",
       link: "https://www.wansoftbrazil.com/",
     },
+    { title: "360 ERP", duration: "Current", link: "https://360erp.com.br/" },
   ];
 
   return (
@@ -69,7 +69,7 @@ const About: React.FC = () => {
               customers and seeking more and more learning.
             </p>
 
-            <p className="company">Companies:</p>
+            <p className="company">Main companies where I worked:</p>
 
             <div className="experiences">
               {workExperiences.map((experience, index) => (

@@ -8,7 +8,7 @@ export default class MyApp extends App {
     return (
       <>
         <LoadingAnimation />
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </>
     );
   }

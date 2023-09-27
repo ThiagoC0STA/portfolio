@@ -79,7 +79,7 @@ export const TextsDiv = styled.div`
   justify-content: flex-start;
   flex-direction: column;
   width: 500px;
-  gap: 50px;
+  gap: 60px;
 
   p:nth-child(1) {
     line-height: 24px;
@@ -87,9 +87,10 @@ export const TextsDiv = styled.div`
 
   .company {
     position: absolute;
-    margin-top: 90px;
+    margin-top: 105px;
     margin-left: 1px;
     font-size: 12px;
+    color: #1b9be3;
   }
 
   .experiences {
