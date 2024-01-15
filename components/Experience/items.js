@@ -12,6 +12,9 @@ import { SiMongodb, SiExpress } from "react-icons/si";
 import { CgFigma } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import Typescript from "../../public/Assets/Icons/Typescript.js";
+import { RiFlutterFill } from "react-icons/ri";
+import { SiDart } from "react-icons/si";
+import { DiApple } from "react-icons/di";
 
 export const items = [
   {
@@ -93,5 +96,25 @@ export const items = [
     icon: <FaNode className="smallIcon" />,
     name: "Node.js",
     id: 16,
+  },
+  {
+    icon: <RiFlutterFill className="smallIcon" />,
+    name: "Flutter",
+    id: 17,
+  },
+  {
+    icon: <FaWordpress className="smallIcon" />,
+    name: "Wordpress",
+    id: 18,
+  },
+  {
+    icon: <SiDart className="smallIcon" />,
+    name: "Dart",
+    id: 19,
+  },
+  {
+    icon: <DiApple className="smallIcon" />,
+    name: "Apple publish",
+    id: 20,
   },
 ];
