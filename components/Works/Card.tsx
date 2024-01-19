@@ -14,14 +14,15 @@ export default function Card({ props }: any) {
       <Image src={props.img} alt={props.alt} className="project-image" />
 
       <div className="links">
-        <Link
+        { props.github &&  <Link
           href={props.github}
           target="_blank"
           aria-label="GitHub"
           rel="noopener noreferrer"
         >
           <AiFillGithub />
-        </Link>
+        </Link>}
+       
         <Link
           href={props.url}
           target="_blank"

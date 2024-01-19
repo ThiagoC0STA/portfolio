@@ -6,3 +6,4 @@ export { default as CashBuild } from "./cashbuild.png";
 export { default as Lacosta } from "./lacosta.png";
 export { default as YourPlaces } from "./yourplaces.png";
 export { default as Metaverse } from "./Metaverse.png";
+export { default as Erp360 } from "./360erp.png";

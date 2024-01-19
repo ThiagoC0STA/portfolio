@@ -108,7 +108,7 @@ export const items = [
     id: 18,
   },
   {
-    icon: <SiDart className="smallIcon" />,
+  icon: <SiDart className="smallIcon" />,
     name: "Dart",
     id: 19,
   },
