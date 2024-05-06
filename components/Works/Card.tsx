@@ -11,6 +11,7 @@ export default function Card({ props }: any) {
   return (
     <Cards>
       <p className="title">{props.titulo}</p>
+      <p className="sub-title">{props.alt}</p>
       <Image src={props.img} alt={props.alt} className="project-image" />
 
       <div className="links">

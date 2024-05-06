@@ -11,18 +11,25 @@ export const Cards = styled.section`
     color: #eeeeee;
     font-weight: 500;
     font-size: 16px;
+  }
+
+  .sub-title {
+    color: #eeeeee;
+    font-weight: 300;
+    font-size: 12px;
     margin-bottom: 30px;
+    margin-top: 2px;
   }
 
   .techs-title {
     color: #eeeeee;
     font-weight: 500;
     font-size: 13px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
   }
 
   .techs-text {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .links {
@@ -119,9 +126,22 @@ export const Cards = styled.section`
     height: 310px;
 
     .title {
+      font-size: 14px;
+    }
+
+    .techs-title {
       font-size: 12px;
     }
-    
+
+    .sub-title {
+      font-size: 10px;
+      margin-bottom: 20px;
+    }
+
+    .techs-text {
+      font-size: 10px;
+    }
+
     .project-image {
       height: 130px !important;
     }

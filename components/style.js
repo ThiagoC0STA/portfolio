@@ -17,9 +17,9 @@ export const ColumnDiv = styled.div`
   .githublink {
     color: #e9e9e9;
     font-weight: 500;
-    margin: 1px 0 45px 0;
+    margin: 1px 10px 45px 10px;
+    text-align: center;
     font-size: 0.85em;
-    
   }
 
   p {
