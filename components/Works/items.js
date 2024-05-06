@@ -10,6 +10,16 @@ import {
 
 export const items = [
   {
+    titulo: "Zytro - (Web and mobile app)",
+    img: Zytro,
+    url: "https://www.zytro.co.uk/",
+    alt: "A 3d app design system",
+    // github: "https://github.com/ThiagoC0STA/Metaverse-landing-page",
+    id: 7,
+    techs:
+      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css, React native",
+  },
+  {
     titulo: "360 ERP - (Web)",
     img: Erp360,
     url: "https://app.360erp.com.br/",
@@ -27,16 +37,7 @@ export const items = [
     id: 6,
     techs: "Flutter, Dart, C++, swift, kotlin, Figma, Tailwind css",
   },
-  {
-    titulo: "Zytro - (Web and mobile app)",
-    img: Zytro,
-    url: "https://www.zytro.co.uk/",
-    alt: "A 3d app design system",
-    // github: "https://github.com/ThiagoC0STA/Metaverse-landing-page",
-    id: 7,
-    techs:
-      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css, Flutter, Dart, c++, swift, kotlin",
-  },
+
   {
     titulo: "Metaverse - Animation study",
     img: Metaverse,
