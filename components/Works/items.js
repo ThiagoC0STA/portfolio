@@ -2,6 +2,7 @@ import {
   Admin,
   App360,
   CashBuild,
+  CnpMidia,
   Erp360,
   Lacosta,
   Metaverse,
@@ -10,11 +11,28 @@ import {
 
 export const items = [
   {
+    titulo: "Cnp Midia - I am the CEO 🫡",
+    img: CnpMidia,
+    url: "https://cnpmidia.com/",
+    alt: "Social media agency",
+    id: 8,
+    techs: "HTML5, CSS3, JavaScript, Figma, Tailwind css, Design advanced",
+  },
+  {
+    titulo: "La costa",
+    img: Lacosta,
+    url: "https://lacosta-corretora.vercel.app/",
+    alt: "Insurance broker website",
+    github: "https://github.com/ThiagoC0STA/lacosta-corretora",
+    id: 4,
+    techs:
+      "HTML5 CSS3 JavaScript React, Figma, Next.js, Typescript and Styled components",
+  },
+  {
     titulo: "Zytro - (Web and mobile app)",
     img: Zytro,
     url: "https://www.zytro.co.uk/",
     alt: "A 3d app design system",
-    // github: "https://github.com/ThiagoC0STA/Metaverse-landing-page",
     id: 7,
     techs:
       "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css, React native",
@@ -24,7 +42,6 @@ export const items = [
     img: Erp360,
     url: "https://app.360erp.com.br/",
     alt: "Full erp system",
-    // github: "https://github.com/ThiagoC0STA/Metaverse-landing-page",
     id: 1,
     techs: "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css",
   },
@@ -33,7 +50,6 @@ export const items = [
     img: App360,
     url: "https://apps.apple.com/br/app/360-erp/id1540511289",
     alt: "Full erp system",
-    // github: "https://github.com/ThiagoC0STA/Metaverse-landing-page",
     id: 6,
     techs: "Flutter, Dart, C++, swift, kotlin, Figma, Tailwind css",
   },
@@ -57,16 +73,6 @@ export const items = [
     id: 3,
     techs:
       "HTML5, CSS3, JavaScript, React, Figma, Next.js, Typescript and Styled components",
-  },
-  {
-    titulo: "La costa ( in production )",
-    img: Lacosta,
-    url: "https://lacosta-corretora.vercel.app/",
-    alt: "Insurance broker website",
-    github: "https://github.com/ThiagoC0STA/lacosta-corretora",
-    id: 4,
-    techs:
-      "HTML5 CSS3 JavaScript React, Figma, Next.js, Typescript and Styled components",
   },
   {
     titulo: "Shoppy - Admin Dashboard",

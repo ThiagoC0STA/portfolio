@@ -78,7 +78,7 @@ export const TextsDiv = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  width: 500px;
+  width: 550px;
   gap: 60px;
 
   p:nth-child(1) {
@@ -98,6 +98,8 @@ export const TextsDiv = styled.div`
     align-items: center;
     justify-content: space-between;
     width: -webkit-fill-available;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
   @media (max-width: 1140px) {

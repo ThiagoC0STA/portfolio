@@ -32,6 +32,7 @@ const WorkComponent: React.FC<WorkProps> = ({ icon: Icon, experience }) => (
 
 const About: React.FC = () => {
   const workExperiences: WorkExperience[] = [
+    { title: "Freelancer", duration: "4+ years", link: "https://linkedin.com/in/rodcdev" },
     {
       title: "La costa",
       duration: "6 months",
@@ -42,7 +43,7 @@ const About: React.FC = () => {
       duration: "4 months",
       link: "https://www.wansoftbrazil.com/",
     },
-    { title: "360 ERP", duration: "Current", link: "https://360erp.com.br/" },
+    { title: "360 ERP", duration: "2 years", link: "https://360erp.com.br/" },
   ];
 
   return (

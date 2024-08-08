@@ -9,3 +9,5 @@ export { default as CashBuild } from "./cashbuild.png";
 export { default as Lacosta } from "./lacosta.png";
 export { default as YourPlaces } from "./yourplaces.png";
 export { default as Zytro } from "./zytro.png";
+export { default as CnpMidia } from "./cnpmidia.png";
+
