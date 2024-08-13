@@ -21,12 +21,12 @@ export const items = [
   {
     titulo: "La costa",
     img: Lacosta,
-    url: "https://lacosta-corretora.vercel.app/",
+    url: "https://lacostacorretora.netlify.app/",
     alt: "Insurance broker website",
-    github: "https://github.com/ThiagoC0STA/lacosta-corretora",
+    github: "https://github.com/ThiagoC0STA/lacosta",
     id: 4,
     techs:
-      "HTML5 CSS3 JavaScript React, Figma, Next.js, Typescript and Styled components",
+      "HTML5 CSS3 JavaScript, Figma",
   },
   {
     titulo: "Zytro - (Web and mobile app)",
