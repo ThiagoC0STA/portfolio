@@ -1,5 +1,6 @@
 import {
   Admin,
+  Ambev,
   App360,
   CashBuild,
   CnpMidia,
@@ -11,11 +12,20 @@ import {
 
 export const items = [
   {
+    titulo: "Ambev - Tergo project",
+    video: Ambev,
+    alt: "Social media agency",
+    id: 9,
+    github: "https://github.com/ThiagoC0STA/ambev-tergo",
+    techs: "Cubit, flutter, Clean Architecture, Firebase, Figma",
+  },
+  {
     titulo: "Cnp Midia - I am the CEO 🫡",
     img: CnpMidia,
     url: "https://cnpmidia.com/",
     alt: "Social media agency",
     id: 8,
+    github: "https://github.com/ThiagoC0STA/cnpmidia",
     techs: "HTML5, CSS3, JavaScript, Figma, Tailwind css, Design advanced",
   },
   {
@@ -25,8 +35,7 @@ export const items = [
     alt: "Insurance broker website",
     github: "https://github.com/ThiagoC0STA/lacosta",
     id: 4,
-    techs:
-      "HTML5 CSS3 JavaScript, Figma",
+    techs: "HTML5 CSS3 JavaScript, Figma",
   },
   {
     titulo: "Zytro - (Web and mobile app)",

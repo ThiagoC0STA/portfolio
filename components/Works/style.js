@@ -37,9 +37,9 @@ export const Cards = styled.section`
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
-    position: relative;
-    bottom: 47px;
-    margin-right: 10px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -60px;
   }
 
   svg {
@@ -52,8 +52,15 @@ export const Cards = styled.section`
   .project-image {
     object-fit: cover;
     width: 100%;
-    height: 180px;
+    height: 200px;
     border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+  video:fullscreen {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
   }
 
   a {
@@ -95,7 +102,7 @@ export const Cards = styled.section`
     }
 
     .project-image {
-      height: 170px !important;
+      height: 200px !important;
     }
   }
 
