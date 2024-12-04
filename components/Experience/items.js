@@ -1,20 +1,22 @@
-import { DiHtml5, DiCss3, DiReact } from "react-icons/di";
+import { BsGithub } from "react-icons/bs";
+import { CgFigma } from "react-icons/cg";
+import { DiApple, DiCss3, DiHtml5, DiReact } from "react-icons/di";
+import { FaNode, FaWordpress } from "react-icons/fa";
+import { GrGraphQl } from "react-icons/gr";
 import { IoLogoJavascript } from "react-icons/io5";
+import { RiFlutterFill, RiGlobalLine } from "react-icons/ri";
 import {
+  SiChakraui,
+  SiDart,
+  SiExpress,
+  SiGit,
+  SiMongodb,
   SiNextdotjs,
   SiStyledcomponents,
   SiTailwindcss,
-  SiGit,
-  SiWoocommerce,
 } from "react-icons/si";
-import { FaWordpress, FaNode } from "react-icons/fa";
-import { SiMongodb, SiExpress } from "react-icons/si";
-import { CgFigma } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { TbApi } from "react-icons/tb";
 import Typescript from "../../public/Assets/Icons/Typescript.js";
-import { RiFlutterFill } from "react-icons/ri";
-import { SiDart } from "react-icons/si";
-import { DiApple } from "react-icons/di";
 
 export const items = [
   {
@@ -108,13 +110,33 @@ export const items = [
     id: 18,
   },
   {
-  icon: <SiDart className="smallIcon" />,
+    icon: <SiDart className="smallIcon" />,
     name: "Dart",
     id: 19,
   },
   {
-    icon: <DiApple className="smallIcon" />,
+    icon: <DiApple />,
     name: "Apple publish",
     id: 20,
+  },
+  {
+    icon: <RiGlobalLine className="smallIcon" />,
+    name: "Zustant",
+    id: 21,
+  },
+  {
+    icon: <TbApi className="smallIcon" />,
+    name: "Api integration",
+    id: 22,
+  },
+  {
+    icon: <SiChakraui className="smallIcon" />,
+    name: "Chakra UI",
+    id: 23,
+  },
+  {
+    icon: <GrGraphQl className="smallIcon" />,
+    name: "GraphQL",
+    id: 24,
   },
 ];

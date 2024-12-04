@@ -76,7 +76,7 @@ export const items = [
   {
     titulo: "Cash build - Real Estate",
     img: CashBuild,
-    url: "https://www.cashbuild.com.br/",
+    url: "https://cash-build.vercel.app/",
     alt: "Real estate website",
     github: "https://github.com/ThiagoC0STA/Cash-build",
     id: 3,
