@@ -1,9 +1,7 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "next/babel"
-  ],
+  "extends": "next/core-web-vitals",
+  "plugins": ["unused-imports"],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "unused-imports/no-unused-imports": 2
   }
 }
