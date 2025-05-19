@@ -19,8 +19,10 @@ export const RecentProjects = () => {
   // Filtrar projetos
   const filteredProjects = projects.filter((project) => {
     if (filter === "all") return true;
-    if (filter === "mobile") return project.type === "mobile" || project.type === "both";
-    if (filter === "web") return project.type === "web" || project.type === "both";
+    if (filter === "mobile")
+      return project.type === "mobile" || project.type === "both";
+    if (filter === "web")
+      return project.type === "web" || project.type === "both";
     return true;
   });
 
@@ -135,16 +137,37 @@ export const RecentProjects = () => {
                   </div>
 
                   <div className="flex items-center justify-center">
-                    <Link
-                      href={sourceCode}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      className="flex text-sm text-purple md:text-xs lg:text-xl"
-                    >
-                      Source Code
-                    </Link>
-
-                    <FaLocationArrow className="ms-3" color="#cbacf9" />
+                    {sourceCode ? (
+                      <>
+                        <Link
+                          href={sourceCode}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="flex text-sm text-purple md:text-xs lg:text-[18px]"
+                        >
+                          Source Code
+                        </Link>
+                        <FaLocationArrow className="ms-2" color="#cbacf9" />
+                      </>
+                    ) : (
+                      <span className="flex items-center text-sm text-gray-400 md:text-xs lg:text-[18px]">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-4 w-4 mr-1"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                          />
+                        </svg>
+                        Private Code
+                      </span>
+                    )}
                   </div>
                 </div>
               </PinContainer>
