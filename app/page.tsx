@@ -7,6 +7,7 @@ import { Hero } from "@/components/hero";
 import { RecentProjects } from "@/components/recent-projects";
 import { ShowcaseSections } from "@/components/ShowcaseSections";
 import { SectionAnimation } from "@/components/ui/section-animation";
+import { Analytics } from "@vercel/analytics/next"
 
 const MainPage = () => {
   return (
@@ -15,33 +16,35 @@ const MainPage = () => {
         <SectionAnimation>
           <Hero />
         </SectionAnimation>
-        
+
         <SectionAnimation>
           <Grid />
         </SectionAnimation>
-        
+
         <SectionAnimation>
           <ShowcaseSections />
         </SectionAnimation>
-        
+
         <SectionAnimation>
           <RecentProjects />
         </SectionAnimation>
-        
+
         <SectionAnimation>
           <Clients />
         </SectionAnimation>
-        
+
         <SectionAnimation>
           <Experience />
         </SectionAnimation>
-        
+
         <SectionAnimation>
           <Approach />
         </SectionAnimation>
-        
+
         <Footer />
       </div>
+
+      <Analytics />
     </main>
   );
 };
