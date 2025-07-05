@@ -48,31 +48,27 @@ export const WeeklyStatistics = ({ stats }: WeeklyStatisticsProps) => {
         <h2 className="text-lg md:text-xl font-bold text-white">Weekly Statistics</h2>
         <span className="ml-auto text-xs text-gray-500">Last update: {stats.lastUpdate}</span>
       </div>
-      <p className="text-gray-400 text-xs mb-4">My WakaTime last 7 days stats. (started to use in 05/05/2025)</p>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-4">
-        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col gap-1 border border-white/10">
+      <p className="text-gray-400 text-xs mb-4">My WakaTime last 7 days stats.</p>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 mb-4">
+        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col items-center gap-1 border border-white/10">
           <span className="text-xs text-gray-400">Start Date</span>
           <span className="text-white font-semibold text-sm">{stats.startDate}</span>
         </div>
-        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col gap-1 border border-white/10">
+        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col items-center gap-1 border border-white/10">
           <span className="text-xs text-gray-400">End Date</span>
           <span className="text-white font-semibold text-sm">{stats.endDate}</span>
         </div>
-        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col gap-1 border border-white/10">
+        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col items-center gap-1 border border-white/10">
           <span className="text-xs text-gray-400">Daily Coding Average</span>
           <span className="text-white font-semibold text-sm">{stats.dailyAvg}</span>
         </div>
-        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col gap-1 border border-white/10">
+        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col items-center gap-1 border border-white/10">
           <span className="text-xs text-gray-400">This Week Coding Time</span>
           <span className="text-white font-semibold text-sm">{stats.weekTime}</span>
         </div>
-        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col gap-1 border border-white/10">
+        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col items-center gap-1 border border-white/10">
           <span className="text-xs text-gray-400">Best Day Coding Time</span>
           <span className="text-white font-semibold text-sm">{stats.bestDay}</span>
-        </div>
-        <div className="bg-[#10132e] rounded-xl p-3 flex flex-col gap-1 border border-white/10">
-          <span className="text-xs text-gray-400">All Time Since Today</span>
-          <span className="text-white font-semibold text-sm">{stats.allTime}</span>
         </div>
       </div>
       <div className="mt-8 flex flex-col gap-6 md:flex-row md:gap-4">
