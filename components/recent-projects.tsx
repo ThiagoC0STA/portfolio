@@ -110,7 +110,7 @@ export const RecentProjects = () => {
                       src={img}
                       alt={title}
                       quality={100}
-                      className="absolute -bottom-24 z-10 -rotate-2 rounded-tr-3xl rounded-tl-3xl w-[500px] h-full object-cover object-top"
+                      className="absolute -bottom-8 z-10 -rotate-2 rounded-tr-3xl rounded-tl-3xl w-[555px] h-[300px] object-cover object-top"
                     />
                   </div>
 

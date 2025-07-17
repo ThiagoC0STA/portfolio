@@ -161,41 +161,51 @@ function getIconList(techs: string) {
 // Novo array projects
 export const projects = [
   {
-    id: 10,
-    title: "Beauty Right Back",
-    des: "Salons management system",
-    img: "/projects/brb.png",
+    id: 1,
+    title: "Talent Flight",
+    des: "Talent Flight is a platform that helps you find work",
+    img: "/projects/talentflight.png",
     iconLists: getIconList(
-      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css"
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion"
     ),
-    link: "https://beautyrightback.com/",
+    link: "https://www.talentflight.com/",
     type: "web",
   },
   {
-    id: 9,
-    title: "Ambev - Tergo project",
-    des: "Social media agency",
-    img: "/projects/ambev.png",
+    id: 2,
+    title: "Fit Finance",
+    des: "Fit Finance help you with your financial goals",
+    img: "/projects/fitfinance.png",
     iconLists: getIconList(
-      "Cubit, Flutter, Clean Architecture, Firebase, Figma"
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion"
     ),
-    link: "",
-    type: "mobile",
+    link: "https://fit-finance.vercel.app/",
+    type: "web",
   },
   {
-    id: 8,
-    title: "Cnp Midia - I am the CEO 🫡",
-    des: "Social media agency",
-    img: "/projects/cnpmidia.png",
+    id: 3,
+    title: "Wxllspace",
+    des: "Wxllspace is a platform to help wall artists sell their art",
+    img: "/projects/wxllspace.png",
     iconLists: getIconList(
-      "HTML5, CSS3, JavaScript, Figma, Tailwind css, Design advanced"
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion"
     ),
-    link: "https://cnpmidia.com/",
-    sourceCode: "https://github.com/ThiagoC0STA/cnpmidia",
+    link: "https://explore.wxllspace.com/marketplace",
     type: "web",
   },
   {
     id: 4,
+    title: "How to guides",
+    des: "How to guides is a blog for the latest news in AI.",
+    img: "/projects/how-to-guides.png",
+    iconLists: getIconList(
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion"
+    ),
+    link: "https://how-to-guides-kappa.vercel.app/",
+    type: "web",
+  },
+  {
+    id: 5,
     title: "La costa",
     des: "Insurance broker website",
     img: "/projects/lacosta.png",
@@ -205,7 +215,18 @@ export const projects = [
     type: "web",
   },
   {
-    id: 7,
+    id: 6,
+    title: "Lacosta Consórcios",
+    des: "Consórcio Landing Page",
+    img: "/projects/lacosta-consorcios.png",
+    iconLists: getIconList(
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Lucid, Zustand, Framer Motion"
+    ),
+    link: "https://www.lacostaconsorcios.com.br/",
+    type: "web",
+  },
+  {
+    id: 8,
     title: "Zytro - (Web and mobile app)",
     des: "A 3d app design system",
     img: "/projects/zytro.png",
@@ -215,8 +236,9 @@ export const projects = [
     link: "https://www.zytro.co.uk/",
     type: "both",
   },
+
   {
-    id: 1,
+    id: 9,
     title: "360 ERP - (Web)",
     des: "Full erp system",
     img: "/projects/360erp.png",
@@ -227,7 +249,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 6,
+    id: 10,
     title: "360 ERP - (App)",
     des: "Full erp system",
     img: "/projects/360app.webp",
@@ -238,7 +260,19 @@ export const projects = [
     type: "mobile",
   },
   {
-    id: 2,
+    id: 11,
+    title: "Reverse Mortgages",
+    des: "Unlock your home's equity without selling",
+    img: "/projects/reverse-mortgages.png",
+    iconLists: getIconList(
+      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css, React native"
+    ),
+    link: "https://reverse-mortgages.vercel.app/",
+    sourceCode: "https://github.com/ThiagoC0STA/reverse-mortgages",
+    type: "web",
+  },
+  {
+    id: 12,
     title: "Metaverse - Animation study",
     des: "Study for animations",
     img: "/projects/metaverse.png",
@@ -250,7 +284,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 3,
+    id: 13,
     title: "Cash build - Real Estate",
     des: "Real estate website",
     img: "/projects/cashbuild.png",
@@ -262,7 +296,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 5,
+    id: 14,
     title: "Shoppy - Admin Dashboard",
     des: "Admin dashboard",
     img: "/projects/admin.png",
@@ -270,6 +304,28 @@ export const projects = [
     link: "https://admin-dashboard-thiagoc0sta.vercel.app/",
     sourceCode: "https://github.com/ThiagoC0STA/admin-dashboard",
     type: "web",
+  },
+  {
+    id: 15,
+    title: "Beauty Right Back",
+    des: "Salons management system",
+    img: "/projects/brb.png",
+    iconLists: getIconList(
+      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css"
+    ),
+    link: "https://beautyrightback.com/",
+    type: "web",
+  },
+  {
+    id: 16,
+    title: "Ambev - Tergo project",
+    des: "Social media agency",
+    img: "/projects/ambev.png",
+    iconLists: getIconList(
+      "Cubit, Flutter, Clean Architecture, Firebase, Figma"
+    ),
+    link: "",
+    type: "mobile",
   },
 ];
 
