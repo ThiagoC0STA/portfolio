@@ -147,7 +147,16 @@ export const Hero = () => {
               Developer.
             </h1>
             <p className="text-base md:text-lg text-gray-400 mt-4">
-              I help startups and product teams turn ideas into real, high-performance applications built with clean architecture and designed to grow.
+              I help startups and product teams turn ideas into real, high-performance applications built with clean architecture and designed to grow. I&apos;m also the founder of{" "}
+              <Link
+                href="https://www.codestrahub.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-300 hover:text-purple-200 underline underline-offset-2 transition-colors"
+              >
+                Codestra
+              </Link>
+              , a software development studio.
             </p>
             {/* Desktop version of buttons/socials */}
             <div className="mt-8 hidden md:flex flex-row items-center gap-6">

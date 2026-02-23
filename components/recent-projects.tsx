@@ -104,14 +104,16 @@ export const RecentProjects = () => {
                       />
                     </div>
 
-                    <Image
-                      height={0}
-                      width={1000}
-                      src={img}
-                      alt={title}
-                      quality={100}
-                      className="absolute -bottom-8 z-10 -rotate-2 rounded-tr-3xl rounded-tl-3xl w-[555px] h-[300px] object-cover object-top"
-                    />
+                    <div className="absolute -bottom-8 z-10 -rotate-2 rounded-tr-3xl rounded-tl-3xl w-full max-w-[555px] aspect-video overflow-hidden bg-[#13162d]">
+                      <Image
+                        src={img}
+                        alt={title}
+                        fill
+                        sizes="555px"
+                        quality={100}
+                        className="object-contain object-top"
+                      />
+                    </div>
                   </div>
 
                   <h1 className="line-clamp-1 text-base font-bold md:text-xl lg:text-2xl">

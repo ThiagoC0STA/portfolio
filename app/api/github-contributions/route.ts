@@ -3,6 +3,15 @@ export async function GET(request: Request) {
   const username = searchParams.get('username');
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
+  if (!GITHUB_TOKEN) {
+    return new Response(
+      JSON.stringify({
+        error: 'Missing GITHUB_TOKEN. Add it to your .env.local file. Create a token at https://github.com/settings/tokens (no scopes needed for public data).',
+      }),
+      { status: 401 }
+    );
+  }
+
   const query = `
     query($userName:String!) {
       user(login: $userName){

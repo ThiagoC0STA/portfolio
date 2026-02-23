@@ -162,6 +162,28 @@ function getIconList(techs: string) {
 export const projects = [
   {
     id: 1,
+    title: "Agentiiv",
+    des: "Enterprise-grade AI platform where we created AI agents for business functions.",
+    img: "/projects/agentiiv.png",
+    iconLists: getIconList(
+      "React, Next.js, Tailwind css, TypeScript, Figma"
+    ),
+    link: "https://www.agentiiv.com/",
+    type: "web",
+  },
+  {
+    id: 2,
+    title: "Codestra · Founder",
+    des: "Software development studio I founded. Custom software, web platforms, AI-powered solutions, and performance-driven engineering.",
+    img: "/projects/codestra.png",
+    iconLists: getIconList(
+      "React, Next.js, Tailwind css, TypeScript, Figma"
+    ),
+    link: "https://www.codestrahub.com/",
+    type: "web",
+  },
+  {
+    id: 3,
     title: "Talent Flight",
     des: "Talent Flight is a platform that helps you find work",
     img: "/projects/talentflight.png",
@@ -172,7 +194,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 2,
+    id: 4,
     title: "Fit Finance",
     des: "Fit Finance help you with your financial goals",
     img: "/projects/fitfinance.png",
@@ -183,7 +205,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 3,
+    id: 5,
     title: "Wxllspace",
     des: "Wxllspace is a platform to help wall artists sell their art",
     img: "/projects/wxllspace.png",
@@ -194,7 +216,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 4,
+    id: 6,
     title: "How to guides",
     des: "How to guides is a blog for the latest news in AI.",
     img: "/projects/how-to-guides.png",
@@ -205,7 +227,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 5,
+    id: 7,
     title: "La costa",
     des: "Insurance broker website",
     img: "/projects/lacosta.png",
@@ -215,7 +237,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 6,
+    id: 8,
     title: "Lacosta Consórcios",
     des: "Consórcio Landing Page",
     img: "/projects/lacosta-consorcios.png",
@@ -226,7 +248,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 8,
+    id: 9,
     title: "Zytro - (Web and mobile app)",
     des: "A 3d app design system",
     img: "/projects/zytro.png",
@@ -238,7 +260,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "360 ERP - (Web)",
     des: "Full erp system",
     img: "/projects/360erp.png",
@@ -249,7 +271,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 10,
+    id: 11,
     title: "360 ERP - (App)",
     des: "Full erp system",
     img: "/projects/360app.webp",
@@ -260,7 +282,7 @@ export const projects = [
     type: "mobile",
   },
   {
-    id: 11,
+    id: 12,
     title: "Reverse Mortgages",
     des: "Unlock your home's equity without selling",
     img: "/projects/reverse-mortgages.png",
@@ -272,7 +294,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 12,
+    id: 13,
     title: "Metaverse - Animation study",
     des: "Study for animations",
     img: "/projects/metaverse.png",
@@ -284,7 +306,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 13,
+    id: 14,
     title: "Cash build - Real Estate",
     des: "Real estate website",
     img: "/projects/cashbuild.png",
@@ -296,7 +318,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 14,
+    id: 15,
     title: "Shoppy - Admin Dashboard",
     des: "Admin dashboard",
     img: "/projects/admin.png",
@@ -306,7 +328,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 15,
+    id: 16,
     title: "Beauty Right Back",
     des: "Salons management system",
     img: "/projects/brb.png",
@@ -317,7 +339,7 @@ export const projects = [
     type: "web",
   },
   {
-    id: 16,
+    id: 17,
     title: "Ambev - Tergo project",
     des: "Social media agency",
     img: "/projects/ambev.png",
