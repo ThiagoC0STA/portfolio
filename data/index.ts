@@ -513,7 +513,7 @@ export const workExperience = [
     id: 6,
     title: "Founder & Lead Developer",
     company: "Agentiiv",
-    period: "Present",
+    period: "2025 - 2026",
     desc: "Built enterprise-grade AI platform with AI agents for business functions. Leading full-stack development and product strategy.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
@@ -526,11 +526,7 @@ export const socialMedia = [
     img: "/git.svg",
     link: "https://github.com/ThiagoC0STA",
   },
-  {
-    name: "Upwork",
-    img: "/upwork-white.svg",
-    link: "https://www.upwork.com/freelancers/thiagoc14?mp_source=share",
-  },
+
   {
     name: "LinkedIn",
     img: "/link.svg",
