@@ -165,69 +165,74 @@ export const projects = [
     title: "Agentiiv",
     des: "Enterprise-grade AI platform where we created AI agents for business functions.",
     img: "/projects/agentiiv.png",
-    iconLists: getIconList(
-      "React, Next.js, Tailwind css, TypeScript, Figma"
-    ),
+    iconLists: getIconList("React, Next.js, Tailwind css, TypeScript, Figma"),
     link: "https://www.agentiiv.com/",
     type: "web",
   },
   {
     id: 2,
-    title: "Codestra · Founder",
-    des: "Software development studio I founded. Custom software, web platforms, AI-powered solutions, and performance-driven engineering.",
-    img: "/projects/codestra.png",
-    iconLists: getIconList(
-      "React, Next.js, Tailwind css, TypeScript, Figma"
-    ),
-    link: "https://www.codestrahub.com/",
+    title: "Zhello · Founder",
+    des: "Digital agency specialized in branding, campaigns, websites & softwares. Based in Curitiba, Brazil.",
+    img: "/projects/zhello.png",
+    iconLists: getIconList("React, Next.js, Tailwind css, TypeScript, Figma"),
+    link: "https://zhello.com.br/",
     type: "web",
   },
   {
     id: 3,
+    title: "Codestra · Founder",
+    des: "Software development studio I founded. Custom software, web platforms, AI-powered solutions, and performance-driven engineering.",
+    img: "/projects/codestra.png",
+    iconLists: getIconList("React, Next.js, Tailwind css, TypeScript, Figma"),
+    link: "https://www.codestrahub.com/",
+    type: "web",
+  },
+  {
+    id: 4,
     title: "Talent Flight",
     des: "Talent Flight is a platform that helps you find work",
     img: "/projects/talentflight.png",
     iconLists: getIconList(
-      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion"
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion",
     ),
     link: "https://www.talentflight.com/",
     type: "web",
   },
   {
-    id: 4,
+    id: 5,
     title: "Fit Finance",
     des: "Fit Finance help you with your financial goals",
     img: "/projects/fitfinance.png",
     iconLists: getIconList(
-      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion"
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion",
     ),
     link: "https://fit-finance.vercel.app/",
     type: "web",
   },
   {
-    id: 5,
+    id: 6,
     title: "Wxllspace",
     des: "Wxllspace is a platform to help wall artists sell their art",
     img: "/projects/wxllspace.png",
     iconLists: getIconList(
-      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion"
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion",
     ),
     link: "https://explore.wxllspace.com/marketplace",
     type: "web",
   },
   {
-    id: 6,
+    id: 7,
     title: "How to guides",
     des: "How to guides is a blog for the latest news in AI.",
     img: "/projects/how-to-guides.png",
     iconLists: getIconList(
-      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion"
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Supabase, Lucid, Zustand, Framer Motion",
     ),
     link: "https://how-to-guides-kappa.vercel.app/",
     type: "web",
   },
   {
-    id: 7,
+    id: 8,
     title: "La costa",
     des: "Insurance broker website",
     img: "/projects/lacosta.png",
@@ -237,88 +242,88 @@ export const projects = [
     type: "web",
   },
   {
-    id: 8,
+    id: 9,
     title: "Lacosta Consórcios",
     des: "Consórcio Landing Page",
     img: "/projects/lacosta-consorcios.png",
     iconLists: getIconList(
-      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Lucid, Zustand, Framer Motion"
+      "React, Next.js, Tailwind css, TypeScript, Shadcn UI, Lucid, Zustand, Framer Motion",
     ),
     link: "https://www.lacostaconsorcios.com.br/",
     type: "web",
   },
   {
-    id: 9,
+    id: 10,
     title: "Zytro - (Web and mobile app)",
     des: "A 3d app design system",
     img: "/projects/zytro.png",
     iconLists: getIconList(
-      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css, React native"
+      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css, React native",
     ),
     link: "https://www.zytro.co.uk/",
     type: "both",
   },
 
   {
-    id: 10,
+    id: 11,
     title: "360 ERP - (Web)",
     des: "Full erp system",
     img: "/projects/360erp.png",
     iconLists: getIconList(
-      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css"
+      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css",
     ),
     link: "https://app.360erp.com.br/",
     type: "web",
   },
   {
-    id: 11,
+    id: 12,
     title: "360 ERP - (App)",
     des: "Full erp system",
     img: "/projects/360app.webp",
     iconLists: getIconList(
-      "Flutter, Dart, C++, swift, kotlin, Figma, Tailwind css"
+      "Flutter, Dart, C++, swift, kotlin, Figma, Tailwind css",
     ),
     link: "https://apps.apple.com/br/app/360-erp/id1540511289",
     type: "mobile",
   },
   {
-    id: 12,
+    id: 13,
     title: "Reverse Mortgages",
     des: "Unlock your home's equity without selling",
     img: "/projects/reverse-mortgages.png",
     iconLists: getIconList(
-      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css, React native"
+      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css, React native",
     ),
     link: "https://reverse-mortgages.vercel.app/",
     sourceCode: "https://github.com/ThiagoC0STA/reverse-mortgages",
     type: "web",
   },
   {
-    id: 13,
+    id: 14,
     title: "Metaverse - Animation study",
     des: "Study for animations",
     img: "/projects/metaverse.png",
     iconLists: getIconList(
-      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Styled components, Framer-Motion"
+      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Styled components, Framer-Motion",
     ),
     link: "https://metaverse-landing-page-three.vercel.app/",
     sourceCode: "https://github.com/ThiagoC0STA/Metaverse-landing-page",
     type: "web",
   },
   {
-    id: 14,
+    id: 15,
     title: "Cash build - Real Estate",
     des: "Real estate website",
     img: "/projects/cashbuild.png",
     iconLists: getIconList(
-      "HTML5, CSS3, JavaScript, React, Figma, Next.js, Typescript, Styled components"
+      "HTML5, CSS3, JavaScript, React, Figma, Next.js, Typescript, Styled components",
     ),
     link: "https://cash-build.vercel.app/",
     sourceCode: "https://github.com/ThiagoC0STA/Cash-build",
     type: "web",
   },
   {
-    id: 15,
+    id: 16,
     title: "Shoppy - Admin Dashboard",
     des: "Admin dashboard",
     img: "/projects/admin.png",
@@ -328,23 +333,23 @@ export const projects = [
     type: "web",
   },
   {
-    id: 16,
+    id: 17,
     title: "Beauty Right Back",
     des: "Salons management system",
     img: "/projects/brb.png",
     iconLists: getIconList(
-      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css"
+      "HTML5, CSS3, JavaScript, React, Next.js, Figma, Tailwind css",
     ),
     link: "https://beautyrightback.com/",
     type: "web",
   },
   {
-    id: 17,
+    id: 18,
     title: "Ambev - Tergo project",
     des: "Social media agency",
     img: "/projects/ambev.png",
     iconLists: getIconList(
-      "Cubit, Flutter, Clean Architecture, Firebase, Figma"
+      "Cubit, Flutter, Clean Architecture, Firebase, Figma",
     ),
     link: "",
     type: "mobile",
@@ -494,6 +499,24 @@ export const workExperience = [
     desc: "Developed innovative digital solutions, both independently and as part of a team, ensuring clear communication.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+  },
+  {
+    id: 5,
+    title: "Founder & Lead Developer",
+    company: "Codestra & Zhello",
+    period: "Present",
+    desc: "Founded both Codestra (software studio) and Zhello (digital agency) as aligned ventures. Leading technical development, branding, and delivery of custom software, web platforms, and AI solutions.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 6,
+    title: "Founder & Lead Developer",
+    company: "Agentiiv",
+    period: "Present",
+    desc: "Built enterprise-grade AI platform with AI agents for business functions. Leading full-stack development and product strategy.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
   },
 ] as const;
 
